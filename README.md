@@ -9,7 +9,7 @@ This is a project for React that uses Next.js.
 - SASS/SCSS wth Bootstrap 4 and Reactstrap with Bootstrap components for React
 - Comes with Ionicons icon font and shows how to bundle other CSS and font files
 
-You can see a live demo at **https://greenthumb.now.sh**
+You can see a live demo at **https://greenthumbfarm.now.sh**
 
 ## About
 
@@ -23,7 +23,7 @@ This is a project that provides Next.js with Express, SASS/SCSS, Bootstrap, Reac
 
 To get started, just clone the repository and run `npm install && npm run dev`:
 
-    git clone https://github.com/GTAGreenThumbAgriculture/webapp.git
+    git clone https://github.com/aruzikulov/greenthumbfarm.git
     npm install
     npm run dev
 
