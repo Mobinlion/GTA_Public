@@ -28,7 +28,7 @@ export default class extends Page {
           <Container className="mt-2 mb-2">
             <h1 className="display-2 mb-3" style={{ fontWeight: 300 }}>
               <span style={{ fontWeight: 600 }}>
-                <span className="mr-3">▲</span>
+                <span className="mr-3 icon ion-md-leaf" />
                 <br className="v-block d-sm-none" />
                 Green Thumb
               </span>

@@ -77,8 +77,8 @@ export default class extends React.Component {
         </Head>
         <Navbar light className="navbar navbar-expand-md pt-3 pb-3">
           <Link prefetch href="/">
-            <NavbarBrand href="/">
-              <span className="icon ion-md-home mr-1" /> {Package.name}
+            <NavbarBrand href="/" style={{ color: "green" }}>
+              <img src="/static/logo.png" height="30" /> {Package.name}
             </NavbarBrand>
           </Link>
           <input
