@@ -10,6 +10,7 @@ export default class extends Document {
       <html lang={this.props.__NEXT_DATA__.props.pageProps.lang || "en"}>
         <Head>
           <link rel="icon" type="image/x-icon" href="../static/favicon.ico" />
+          <link href="https://api.mapbox.com/mapbox-gl-js/v0.51.0/mapbox-gl.css" rel="stylesheet" /> 
         </Head>
         <body>
           <Main />
