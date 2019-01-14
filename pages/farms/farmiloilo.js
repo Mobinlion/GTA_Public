@@ -39,19 +39,16 @@ export default class extends Page {
       <Layout {...this.props}>
         <h1 className="display-2">iloilo farm</h1>
         <Row>
-         <Col xs="12" md="9" lg="4">
+         <Col xs="12" md="5" lg="4">
             <p className="lead">Farm Owner: Joe</p>
             <p className="lead">Farm Location: Illoillo, Philippines</p>
             <p className="lead">Types of Crops Grown: Sugarcane, Barley, Sweet potato</p> 
             <p></p>
          </Col>
-         <Col xs="12" md="9" lg="8"> {/*increase lg="5" to show 2 farms per row*/}
+         <Col xs="12" md="7" lg="8"> {/*increase lg="5" to show 2 farms per row*/}
             <DynamicComponentWithNoSSR />
          </Col>
-          
         </Row>
-        
-        {/*<DynamicComponentWithNoSSR />*/}
       </Layout>
     );
   }
