@@ -14,11 +14,11 @@ export default class extends Page {
           GreenThumb Agriculture is a crowdfunding community where people can
           help farmers on their financial needs and at the same time reap
           rewards for their contributions. GreenThumb Agriculture was developed
-          by Sproads, a web publishing company based in Manila.
+          by OBORCHAIN, Blockchain and web publishing company based in Shanghai.
         </p>
 
         <p>
-          Established in 2014, and a pioneer in the integration of new
+          Established in 2012, and a pioneer in the integration of new
           technology. GreenThumb Agriculture has developed its own concept in
           reintroducing farming with the use of social media and online
           applications; thru virtual farming. People who wanted to engage in
