@@ -41,7 +41,7 @@ export default class extends Page {
         <Row>
          <Col xs="12" md="5" lg="4">
             <p className="lead">Farm Owner: Joe</p>
-            <p className="lead">Farm Location: Illoillo, Philippines</p>
+            <p className="lead">Farm Location: Iloilo, Philippines</p>
             <p className="lead">Types of Crops Grown: Sugarcane, Barley, Sweet potato</p> 
             <p></p>
          </Col>

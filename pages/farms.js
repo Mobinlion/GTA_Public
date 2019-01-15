@@ -38,19 +38,19 @@ export default class extends Page {
         <p>Joe's Farms</p>
         <Row>
           <Col xs="12" md="9" lg="4"> {/*increase lg="5" to show 2 farms per row*/}
-          <Link href="/farms/farmiloilo"><a><img src="../static/farmpics/farm_1.jpg" width="100%" height="88%" /> </a></Link> 
+            <Link href="/farms/farmiloilo"><a><img src="../static/farmpics/farm_1.jpg" width="100%" height="88%" /> </a></Link> 
           </Col>
           <Col xs="12" md="9" lg="4">
-          <Link href="/farms/farmiloilo"><a><img src="../static/farmpics/farm_2.jpg" width="100%" height="88%" /> </a></Link>
+            <Link href="/farms/farmiloilo"><a><img src="../static/farmpics/farm_2.jpg" width="100%" height="88%" /> </a></Link>
           </Col>
           <Col xs="12" md="9" lg="4">
-          <Link href="/farms/farmiloilo"><a><img src="../static/farmpics/farm_3.jpg" width="100%" height="88%" /> </a></Link>
+            <Link href="/farms/farmiloilo"><a><img src="../static/farmpics/farm_3.jpg" width="100%" height="88%" /> </a></Link>
           </Col>
           <Col xs="12" md="9" lg="4">
-          <Link href="/farms/farmiloilo"><a><img src="../static/farmpics/farm_4.jpg" width="100%" height="88%" /> </a></Link> 
+            <Link href="/farms/farmiloilo"><a><img src="../static/farmpics/farm_4.jpg" width="100%" height="88%" /> </a></Link> 
           </Col>
           <Col xs="12" md="9" lg="4">
-          <Link href="/farms/farmiloilo"><a><img src="../static/farmpics/cow_farm.jpg" width="100%" height="88%" /> </a></Link> 
+            <Link href="/farms/farmiloilo"><a><img src="../static/farmpics/cow_farm.jpg" width="100%" height="88%" /> </a></Link> 
           </Col>
         </Row>
         

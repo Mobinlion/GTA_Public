@@ -95,21 +95,21 @@ export default class extends React.Component {
           <div className="nojs-navbar">
             <Nav navbar>
               <NavItem>
-                <Link prefetch href="/about/">
+                <Link prefetch href="/about">
                   <a href="/about" className="nav-link">
                     About
                   </a>
                 </Link>
               </NavItem>
               <NavItem>
-                <Link prefetch href="/farms/">
+                <Link prefetch href="/farms">
                   <a href="/farms" className="nav-link">
                     Farms
                   </a>
                 </Link>
               </NavItem>
               <NavItem>
-                <Link prefetch href="/invest/">
+                <Link prefetch href="/invest">
                   <a href="/invest" className="nav-link">
                     Invest
                   </a>
