@@ -1,5 +1,26 @@
 {
   "version": 1,
   "name": "greenthumb",
-  "alias": ["greenthumbfarm.now.sh", "greenthumb.farm"]
+  "alias": ["greenthumbfarm.now.sh", "greenthumb.farm"],
+  "builds": [{ "src": "package.json", "use": "@now/static-build" }],
+  "routes": [
+    {
+      "src": "/_next/static/(chunks|runtime|commons)/.*",
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable"
+      }
+    },
+    {
+      "src": "/static/(favicon|images|farmpics|pin|logo)/.*",
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable"
+      }
+    },
+    {
+      "src": "/_next/static/.*/pages/.*\\.js",
+      "headers": {
+        "cache-control": "public, max-age=31536000, immutable"
+      }
+    }
+  ]
 }
