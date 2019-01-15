@@ -6,11 +6,11 @@ import Layout from "../../components/layout";
 export default class extends Page {
   render() {
     return (
-      <Layout {...this.props} title="England">
-        <h1 className="display-2">England</h1>
-        <h2>Agriculture in England</h2>
+      <Layout {...this.props} title="UK">
+        <h1 className="display-2">UK</h1>
+        <h2>Agriculture in the United Kingdom</h2>
         <p>
-          Agriculture in England is today intensive, highly mechanised, and
+          Agriculture in the UK is today intensive, highly mechanised, and
           efficient by European standards, producing about 60% of food needs
           with only 2% of the labour force. It contributes around 2% of GDP.
           Around two thirds of production is devoted to livestock, one third to
