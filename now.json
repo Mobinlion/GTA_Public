@@ -17,25 +17,5 @@
     "EMAIL_SECURE": "true",
     "EMAIL_USERNAME": "ruzikulov@gmail.com",
     "EMAIL_PASSWORD": "atZMaLM6II4BEUs5wPqW95b8"
-  },
-  "routes": [
-    {
-      "src": "/_next/static/(chunks|runtime|commons)/.*",
-      "headers": {
-        "cache-control": "public, max-age=31536000, immutable"
-      }
-    },
-    {
-      "src": "/static/(favicon|images|farmpics|pin|logo)/.*",
-      "headers": {
-        "cache-control": "public, max-age=31536000, immutable"
-      }
-    },
-    {
-      "src": "/_next/static/.*/pages/.*\\.js",
-      "headers": {
-        "cache-control": "public, max-age=31536000, immutable"
-      }
-    }
-  ]
+  }
 }
