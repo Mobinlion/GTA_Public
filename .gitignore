@@ -1,7 +1,0 @@
-.next/
-node_modules/
-/npm-debug.log
-.DS_Store
-/.env.production
-package-lock.json
-info.txt
