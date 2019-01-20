@@ -50,7 +50,6 @@
     "build": "next build",
     "start": "node index.js",
     "postinstall": "next build",
-    "staging": "now && now alias greenthumb.farm",
     "production": "now && now alias"
   },
   "engines": {
