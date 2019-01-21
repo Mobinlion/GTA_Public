@@ -78,7 +78,7 @@ export default class extends Page {
     return (
       <Layout {...this.props}>
         <h1 className="display-6">Frequently Asked Questions</h1>
-        <p className="lead">Green Thumb Agriculture</p>
+
         <div className="animated fadeIn">
           <Row>
             <CardBody>
