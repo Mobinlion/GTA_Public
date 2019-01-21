@@ -105,7 +105,7 @@ export default class extends Page {
                     <CardBody>
                       You can be a GreenThumber once you register at
                       www.greenthumbfarm.now.sh Note that you can register any time.
-                      Click Sign up / Sign in button and fill up the
+                      Click Signup/Login button and fill up the
                       registration form. Once registered, you can choose
                       available farms and products to fund.
                     </CardBody>
@@ -135,7 +135,9 @@ export default class extends Page {
                       account, you can be able to fund a farm or choose a
                       product. Some products are unavailable and some farms are
                       not open for the current cycle. You can only fund
-                      available farms/products. To fund a farm or choose a
+                      available farms/products. 
+                      
+                      To fund a farm or choose a
                       product, kindly click OUR FARMS tab at the top left corner
                       of the website, then select available farm to fund. After
                       selecting a farm, you can now choose the product you
@@ -143,48 +145,39 @@ export default class extends Page {
                       the total computation will then appear at the bottom of
                       the form. After that, just click "Add to Basket" button.
                       You can add or remove products in your basket as long as
-                      you are not placing it. If you have remaining balance in
+                      you are not placing it. 
+                      
+                      If you have remaining balance in
                       your account, the total product cost will automatically be
-                      deducted from the total amount of FarmOners Balance. You
+                      deducted from the total amount of GTA Balance. You
                       can also choose whether you would like to have a notarized
-                      contract or not. Notary fee is P250. You can fund
-                      different products/ farms in a cycle. Just make sure to
-                      request it all at once to receive your contract on time.
-                      Once contract is receive, you cannot add more products for
-                      the current cycle. Contract - After product request, a
+                      contract or not. Notary fee is P250. 
+                      
+                      You can fund
+                      different products/ farms in a cycle. 
+                      
+                      Contract - After checkout and agreeing to the Terms and Conditions, a
                       contract will be sent to you through Message Center within
                       an average of 3-7 working days. Delays will sometimes
-                      depend on the number of contracts we are sending. Do not
-                      proceed to payment, if you don’t have the contract.
-                      Payment details will be indicated in the contract. After
-                      receiving the contract, kindly affix your signature and
-                      send it to us by replying to the same ticket where the
-                      contact was sent. After sending it, send your proof
-                      payment "scanned copy/photo" using the payment form. If
-                      you are using your balance to fund a farm "reinvest", you
-                      need to send your signed contract to us within 6 working
-                      days to confirm your request. Contract or notarized
-                      contract is per cycle. Even with have multiple product
-                      requests, you will be receiving only one "1" contract for
-                      the current cycle. Payment - Your payment will be
-                      confirmed after you send your signed contract and proof of
-                      payment/details. We will be confirming your payment within
-                      5-7 working days on the same ticket where you have sent
-                      it. If you don't received any confirmation within 7
-                      working days you may call us immediately, delays may due
-                      to a large number of tickets that we are responding. For
-                      late payments - You can refund your payment after it was
-                      posted on your account, but ₱200.00 will be deducted from
-                      the total payment. For immediate refund, 10% will be
-                      deducted from the total payment. For excess payments -
-                      Excess payments will be posted on your FarmOn account, but
-                      ₱200.00 will be deducted from the total payment when
-                      refunded. Reflecting Products - After the
-                      confirmation/validation of payment, your products and
+                      depend on the number of contracts we are sending. 
+
+                      Contract or notarized
+                      contract is per cycle. Even if you have chosen to invest in 
+                      multiple products, you will be receiving only one "1" contract for
+                      the current cycle. 
+                      
+                      Payment - You will be able to fund your Vault once registered 
+                      and logged into your account. We are offering a variety of methods
+                      for funding your Vault. You will be able to see the fund at the 
+                      balance of your vault within 3 working day after payment has been made.
+                      
+                      Reflecting Products - After the
+                      confirmation/validation of checkout, your products and
                       transaction history will be posted on your account before
-                      the start of the real farming. Harvesting - Harvesting is
-                      based on the tagging of your products. "First Pay, First
-                      Out" and duration of the selected products. Sales profit
+                      the start of the real farming. 
+                      
+                      Harvesting - Harvesting is
+                      based on the tagging of your products. Sales profit
                       will depend on the crops/livestocks produced and price
                       market. Once product is harvested it will posted on
                       Product History of your account.
@@ -203,7 +196,7 @@ export default class extends Page {
                       aria-controls="collapseThree"
                     >
                       <h5 className="m-0 p-0">
-                        Can I make payment in advance?
+                        When can I make the deposit?
                       </h5>
                     </Button>
                   </CardHeader>
@@ -213,9 +206,9 @@ export default class extends Page {
                     id="collapseThree"
                   >
                     <CardBody>
-                      Advance payment made even without a contract is strictly
-                      not refundable. With this, we advise every FarmOner to
-                      avoid paying in advance.
+                      Deposit of fund into your Vault can be made anytime, 
+                      but please bear in mind to allow 3 working days before
+                      it appears on your Vault's balance.
                     </CardBody>
                   </Collapse>
                 </Card>
@@ -239,9 +232,7 @@ export default class extends Page {
                     id="collapseFour"
                   >
                     <CardBody>
-                      Yes, there is a one-time registration fee of P300.00 for
-                      all first timers. The fee will be included on the
-                      contract.
+                      No, there will be no registration fee.
                     </CardBody>
                   </Collapse>
                 </Card>
@@ -268,10 +259,7 @@ export default class extends Page {
                       The cart is where all your product requests are placed for
                       every cycle. New product requests will only remain for 10
                       days. Without placing your orders/requests after 10 days
-                      the product requests will automatically remove. Once you
-                      have placed your request, you will be receiving your
-                      contract (within 3-7 working days) for the current cycle
-                      and you cannot add products any more.
+                      the product requests will automatically remove. 
                     </CardBody>
                   </Collapse>
                 </Card>
@@ -357,7 +345,9 @@ export default class extends Page {
                       Payment details indicated in the contract shall be paid
                       through BDO Bank Deposit, Online Banking, Fund Transfer,
                       Remittance or Cash Payment (Office address indicated in
-                      the contract).
+                      the contract) and Bitcoin payment. For investment coming 
+                      from areas in lack of transaction feasibility, please
+                      notify our staff for additional assistance.
                     </CardBody>
                   </Collapse>
                 </Card>
@@ -383,11 +373,9 @@ export default class extends Page {
                     id="collapse9"
                   >
                     <CardBody>
-                      From the day (date is indicated in the contract) you have
-                      received the contract, you have 3-6 banking days to settle
-                      your payment. Failure to pay automatically forfeits
-                      contract. (Note that profit distribution is on a First
-                      Pay, First Out basis)
+                      You may choose to make the payment anytime before the 
+                      deadline indicated on the information page, as long as 
+                      the investment window is still open.
                     </CardBody>
                   </Collapse>
                 </Card>
@@ -411,44 +399,11 @@ export default class extends Page {
                     id="collapse10"
                   >
                     <CardBody>
-                      Your payment will be confirmed after you send your signed
-                      contract and proof of payment. Payment will be confirmed
-                      within 5-7 working days on the same ticket where you have
-                      sent it. If you don't received any confirmation within 7
+                      Payment will be confirmed
+                      within 3 working days. If you don't received any confirmation
+                      in your Message Box within 4
                       working days, you may call us immediately, delays may due
                       to a large number of tickets that we are responding.
-                    </CardBody>
-                  </Collapse>
-                </Card>
-
-                <Card className="mb-0">
-                  <CardHeader id="heading11">
-                    <Button
-                      block
-                      color="link"
-                      className="text-left m-0 p-0"
-                      onClick={() => this.toggleAccordion(10)}
-                      aria-expanded={this.state.accordion[10]}
-                      aria-controls="collapse11"
-                    >
-                      <h5 className="m-0 p-0">
-                        Acknowledgement of late payment
-                      </h5>
-                    </Button>
-                  </CardHeader>
-                  <Collapse
-                    isOpen={this.state.accordion[10]}
-                    data-parent="#accordion"
-                    id="collapse11"
-                  >
-                    <CardBody>
-                      Payments made after 6 banking days automatically forfeits
-                      the existing contract. Payment will automatically recorded
-                      and can be used to fund for the next cycles. Late payment
-                      can be refunded but FarmOner shall bear all costs and
-                      expenses (such as processing fee and bank charges) upon
-                      recovering payment which is 10% deducted from his/her
-                      total payment.
                     </CardBody>
                   </Collapse>
                 </Card>
@@ -526,9 +481,15 @@ export default class extends Page {
                     id="collapse14"
                   >
                     <CardBody>
-                      Profit distribution is on a First Pay, First Out basis.
-                      Those who paid and confirmed first will be the first ones
-                      to receive the profit.
+                     Profit distribution is on an Investor First basis. We 
+                     are grateful for every GTAer’s contribution to making 
+                     agriculture great again, therefore we strive to protect 
+                     the interests and benefits of our funders. The profit will 
+                     be used to first pay off the investors’ invested capital 
+                     first, based on their share of investment. The remaining/net 
+                     profit (Gross Profit - Investment) will be distributed 
+                     between Investor/Farmer/GTA at 50/30/20 respectively.
+
                     </CardBody>
                   </Collapse>
                 </Card>
@@ -552,19 +513,17 @@ export default class extends Page {
                     id="collapse15"
                   >
                     <CardBody>
-                      Withdrawal request is only available from the 1st day up
-                      until the 10th day each month. All requests that will be
-                      send after will not be accepted. Submission of withdrawal
-                      request can be send directly using your FarmOn account.
-                      Just log in to your account. Click the withdraw button at
-                      the bottom of the Vault Summary. Enter the amount you want
-                      to withdraw then submit. If you are using someone's bank
-                      account attach a copy of authorization letter from the
-                      account owner then submit your request. Kindly update your
-                      profile to fill up your bank details/money remittance
-                      details. Note: We send withdrawals through BDO, PNB and
-                      Security Bank. Bank or Money Transfers surcharges are
-                      respectfully shouldered by the FarmOners.
+                    Withdrawal request can be made at anytime. 
+                    Submission of withdrawal request can be send directly 
+                    using your GTA account. Just log in to your account. Click 
+                    the withdraw button at the bottom of the Vault Summary. 
+                    Enter the amount you want to withdraw then submit. If you 
+                    are using someone's bank account attach a copy of authorization 
+                    letter from the account owner then submit your request. 
+                    Kindly update your profile to fill up your bank details/money 
+                    remittance details. To protect our investors security, 
+                    money will be only withdrawn to the registered banking 
+                    details in our investor profile page.
                     </CardBody>
                   </Collapse>
                 </Card>
@@ -590,8 +549,9 @@ export default class extends Page {
                     id="collapse16"
                   >
                     <CardBody>
-                      Withdrawal Requests are processed at the end of the month
-                      and will be send to your preferred Bank/Remittance Center.
+                      Withdrawal Requests are processed in the order of occurence.
+                      The fund will be arrive at the designated address within 10 working days
+                      after the submission has been made.
                     </CardBody>
                   </Collapse>
                 </Card>
@@ -625,31 +585,6 @@ export default class extends Page {
                 </Card>
 
                 <Card className="mb-0">
-                  <CardHeader id="heading18">
-                    <Button
-                      block
-                      color="link"
-                      className="text-left m-0 p-0"
-                      onClick={() => this.toggleAccordion(17)}
-                      aria-expanded={this.state.accordion[17]}
-                      aria-controls="collapse18"
-                    >
-                      <h5 className="m-0 p-0">When is the next cycle?</h5>
-                    </Button>
-                  </CardHeader>
-                  <Collapse
-                    isOpen={this.state.accordion[17]}
-                    data-parent="#accordion"
-                    id="collapse18"
-                  >
-                    <CardBody>
-                      The 21st cycle will open on January 14, 2019 until
-                      February 28, 2019.
-                    </CardBody>
-                  </Collapse>
-                </Card>
-
-                <Card className="mb-0">
                   <CardHeader id="heading19">
                     <Button
                       block
@@ -671,10 +606,10 @@ export default class extends Page {
                   >
                     <CardBody>
                       The best product to invest in is the Rice Crop. Why?
-                      Because, FarmOn has complete technology for the production
+                      Because, GTA has complete technology for the production
                       of good quality rice from planting, harvesting, milling,
-                      up to packaging. FarmOn also has a large number of rice
-                      growers or farmers registered to be funded by FarmOners.
+                      up to packaging. GTA also has a large number of rice
+                      growers or farmers registered to be funded by GTAers.
                       The ROI of rice is estimated from 10% to 20%.
                     </CardBody>
                   </Collapse>
@@ -700,10 +635,10 @@ export default class extends Page {
                   >
                     <CardBody>
                       Rice has been a staple of Filipino diet since time and
-                      memorial. FarmOn offers Rice product to be funded due to
+                      memorial. GTA offers Rice product to be funded due to
                       high and steady demand since Filipinos eat rice every day.
                       Furthermore, the following reasons should be regarded as
-                      basis for the production of rice:  • FARMON serves over a
+                      basis for the production of rice:  • GTA serves over a
                       thousand farmers that are in need of capital investment on
                       the production of rice.  • Although rice undergoes a lot
                       of processes before going to market, it only requires
@@ -711,13 +646,13 @@ export default class extends Page {
                       with the product.  • Despite the fact that the quality of
                       rice deteriorates after three months; it does not spoils
                       easily as those of the vegetable products offered for the
-                      last cycles.  • FarmOn also invests on post-harvest
-                      facilities to ensure the quality of rice. We at FarmOn
+                      last cycles.  • GTA also invests on post-harvest
+                      facilities to ensure the quality of rice. We at GTA
                       Agri-Community Corp., would like to take part on the
                       contribution for higher rice production and be the leader
                       of the movement for Philippines to be a rice sufficient
                       country and we believe that without you, this will not be
-                      possible.
+                      possible. 
                     </CardBody>
                   </Collapse>
                 </Card>
