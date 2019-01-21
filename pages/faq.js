@@ -150,6 +150,7 @@ export default class extends Page {
                       You can add or remove products in your basket as long as
                       you are not placing it. 
                     </p>
+                    <p>
 
                       If you have remaining balance in
                       your account, the total product cost will automatically be
@@ -159,32 +160,40 @@ export default class extends Page {
                       
                       You can fund
                       different products/ farms in a cycle. 
-                      
+                      </p>
+                      <p>
                       Contract - After checkout and agreeing to the Terms and Conditions, a
                       contract will be sent to you through Message Center within
                       an average of 3-7 working days. Delays will sometimes
                       depend on the number of contracts we are sending. 
+                      </p>
+                      <p>
 
                       Contract or notarized
                       contract is per cycle. Even if you have chosen to invest in 
                       multiple products, you will be receiving only one "1" contract for
                       the current cycle. 
-                      
+                      </p>
+                      <p>
                       Payment - You will be able to fund your Vault once registered 
                       and logged into your account. We are offering a variety of methods
                       for funding your Vault. You will be able to see the fund at the 
                       balance of your vault within 3 working day after payment has been made.
-                      
+                      </p>
+                      <p>
+
                       Reflecting Products - After the
                       confirmation/validation of checkout, your products and
                       transaction history will be posted on your account before
                       the start of the real farming. 
-                      
+                      </p>
+                      <p>
                       Harvesting - Harvesting is
                       based on the tagging of your products. Sales profit
                       will depend on the crops/livestocks produced and price
                       market. Once product is harvested it will posted on
                       Product History of your account.
+                      </p>
                     </CardBody>
                   </Collapse>
                 </Card>
@@ -346,12 +355,17 @@ export default class extends Page {
                     id="collapse8"
                   >
                     <CardBody>
+                      <p>
                       Payment details indicated in the contract shall be paid
                       through BDO Bank Deposit, Online Banking, Fund Transfer,
                       Remittance or Cash Payment (Office address indicated in
-                      the contract) and Bitcoin payment. For investment coming 
+                      the contract) and Bitcoin payment. 
+                      </p>
+                      <p>
+                      For investment coming 
                       from areas in lack of transaction feasibility, please
                       notify our staff for additional assistance.
+                      </p>
                     </CardBody>
                   </Collapse>
                 </Card>
@@ -490,7 +504,7 @@ export default class extends Page {
                      agriculture great again, therefore we strive to protect 
                      the interests and benefits of our funders. The profit will 
                      be used to first pay off the investors’ invested capital 
-                     first, based on their share of investment. The remaining/net 
+                     , based on their share of investment. The remaining/net 
                      profit (Gross Profit - Investment) will be distributed 
                      between Investor/Farmer/GTA at 50/30/20 respectively.
 
@@ -638,25 +652,39 @@ export default class extends Page {
                     id="collapse20"
                   >
                     <CardBody>
+                      <p>
                       Rice has been a staple of Filipino diet since time and
                       memorial. GTA offers Rice product to be funded due to
                       high and steady demand since Filipinos eat rice every day.
                       Furthermore, the following reasons should be regarded as
-                      basis for the production of rice:  • GTA serves over a
-                      thousand farmers that are in need of capital investment on
-                      the production of rice.  • Although rice undergoes a lot
+                      basis for the production of rice: 
+                      </p> 
+                      <p>
+                        • GTA serves over a
+                      great number of farmers that are in need of capital investment on
+                      the production of rice;
+                      </p>
+                      <p>
+                         • Although rice undergoes a lot
                       of processes before going to market, it only requires
                       minimal marketing because consumers are already familiar
-                      with the product.  • Despite the fact that the quality of
+                      with the product; 
+                      </p> 
+                      <p>
+                        • Despite the fact that the quality of
                       rice deteriorates after three months; it does not spoils
                       easily as those of the vegetable products offered for the
-                      last cycles.  • GTA also invests on post-harvest
+                      last cycles; 
+                      </p>
+                      <p>
+                         • GTA also invests on post-harvest
                       facilities to ensure the quality of rice. We at GTA
                       Agri-Community Corp., would like to take part on the
                       contribution for higher rice production and be the leader
                       of the movement for Philippines to be a rice sufficient
                       country and we believe that without you, this will not be
                       possible. 
+                      </p>
                     </CardBody>
                   </Collapse>
                 </Card>
