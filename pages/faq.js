@@ -148,6 +148,7 @@ export default class extends Page {
                       You can add or remove products in your basket as long as
                       you are not placing it. 
                       <br>
+                      
                       If you have remaining balance in
                       your account, the total product cost will automatically be
                       deducted from the total amount of GTA Balance. You
