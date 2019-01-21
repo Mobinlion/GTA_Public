@@ -7,7 +7,7 @@ export default class extends Page {
   render() {
     return (
       <Layout {...this.props} title="UK">
-        <h1 className="display-2">UK</h1>
+        <h1 className="display-4">United Kingdom</h1>
         <h2>Agriculture in the United Kingdom</h2>
         <p>
           Agriculture in the UK is today intensive, highly mechanised, and

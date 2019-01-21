@@ -156,7 +156,7 @@ export default class extends React.Component {
                   </Link>
                   <Link prefetch href="/countries/england">
                     <a href="/countries/england" className="dropdown-item">
-                      England
+                      United Kingdom
                     </a>
                   </Link>
                 </div>
@@ -245,7 +245,7 @@ export class MainBody extends React.Component {
                 <ListGroupItem>
                   <Link prefetch href="/countries/england">
                     <a href="/countries/england" className="d-block">
-                      England
+                      United Kingdom
                     </a>
                   </Link>
                 </ListGroupItem>
