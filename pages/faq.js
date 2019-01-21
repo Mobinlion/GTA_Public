@@ -25,7 +25,7 @@ export default class extends Page {
     this.toggleFade = this.toggleFade.bind(this);
     this.state = {
       collapse: false,
-      accordion: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      accordion: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
       custom: [true, false],
       status: "Closed",
       fadeIn: true,
