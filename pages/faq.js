@@ -139,6 +139,7 @@ export default class extends Page {
                       not open for the current cycle. You can only fund
                       available farms/products. 
                     </p> 
+                    <p>
                       To fund a farm or choose a
                       product, kindly click OUR FARMS tab at the top left corner
                       of the website, then select available farm to fund. After
@@ -148,7 +149,7 @@ export default class extends Page {
                       the form. After that, just click "Add to Basket" button.
                       You can add or remove products in your basket as long as
                       you are not placing it. 
-                      
+                    </p>
 
                       If you have remaining balance in
                       your account, the total product cost will automatically be
