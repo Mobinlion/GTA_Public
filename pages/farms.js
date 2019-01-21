@@ -39,8 +39,14 @@ export default class extends Page {
             />
             <CardBody>
               <CardTitle>Joe's farm</CardTitle>
-              <CardSubtitle>Alicia, Isabela</CardSubtitle>
-              <CardText>100+ Hectares</CardText>
+              <CardSubtitle>
+                <span className="mr-1 icon ion-md-pin" />
+                Alicia, Isabela
+              </CardSubtitle>
+              <CardText>
+                <span className="mr-1 icon ion-md-map" />
+                100+ Hectares
+              </CardText>
               <Button>OPEN</Button>
             </CardBody>
           </Card>
@@ -55,8 +61,14 @@ export default class extends Page {
             />
             <CardBody>
               <CardTitle>Mark's farm</CardTitle>
-              <CardSubtitle>Shanhgai, China</CardSubtitle>
-              <CardText>100+ Hectares</CardText>
+              <CardSubtitle>
+                <span className="mr-1 icon ion-md-pin" />
+                Shanhgai, China
+              </CardSubtitle>
+              <CardText>
+                <span className="mr-1 icon ion-md-map" />
+                100+ Hectares
+              </CardText>
               <Button>OPEN</Button>
             </CardBody>
           </Card>
@@ -71,8 +83,14 @@ export default class extends Page {
             />
             <CardBody>
               <CardTitle>John's farm</CardTitle>
-              <CardSubtitle>Termez, Uzbekistan</CardSubtitle>
-              <CardText>100+ Hectares</CardText>
+              <CardSubtitle>
+                <span className="mr-1 icon ion-md-pin" />
+                Termez, Uzbekistan
+              </CardSubtitle>
+              <CardText>
+                <span className="mr-1 icon ion-md-map" />
+                100+ Hectares
+              </CardText>
               <Button>OPEN</Button>
             </CardBody>
           </Card>
@@ -91,8 +109,14 @@ export default class extends Page {
             />
             <CardBody>
               <CardTitle>Mobin's farm</CardTitle>
-              <CardSubtitle>Canada</CardSubtitle>
-              <CardText>100+ Hectares</CardText>
+              <CardSubtitle>
+                <span className="mr-1 icon ion-md-pin" />
+                London, UK
+              </CardSubtitle>
+              <CardText>
+                <span className="mr-1 icon ion-md-map" />
+                100+ Hectares
+              </CardText>
               <Button>OPEN</Button>
             </CardBody>
           </Card>
@@ -107,8 +131,14 @@ export default class extends Page {
             />
             <CardBody>
               <CardTitle>Tony's farm</CardTitle>
-              <CardSubtitle>Canada</CardSubtitle>
-              <CardText>100+ Hectares</CardText>
+              <CardSubtitle>
+                <span className="mr-1 icon ion-md-pin" />
+                Toronto, Canada
+              </CardSubtitle>
+              <CardText>
+                <span className="mr-1 icon ion-md-map" />
+                100+ Hectares
+              </CardText>
               <Button>OPEN</Button>
             </CardBody>
           </Card>
@@ -123,8 +153,14 @@ export default class extends Page {
             />
             <CardBody>
               <CardTitle>Zhang's farm</CardTitle>
-              <CardSubtitle>Hubei, China</CardSubtitle>
-              <CardText>100+ Hectares</CardText>
+              <CardSubtitle>
+                <span className="mr-1 icon ion-md-pin" />
+                Hubei, China
+              </CardSubtitle>
+              <CardText>
+                <span className="mr-1 icon ion-md-map" />
+                100+ Hectares
+              </CardText>
               <Button>OPEN</Button>
             </CardBody>
           </Card>
