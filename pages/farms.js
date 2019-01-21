@@ -26,7 +26,7 @@ export default class extends Page {
   render() {
     return (
       <Layout {...this.props}>
-        <h1 className="display-2">Farms</h1>
+        <h1 className="display-4">Farms</h1>
         <CardDeck>
           <Card>
             <CardImg
