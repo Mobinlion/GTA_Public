@@ -41,11 +41,11 @@ export default class extends Page {
               <CardTitle>Joe's farm</CardTitle>
               <CardSubtitle>
                 <span className="mr-1 icon ion-md-pin" />
-                Alicia, Isabela
+                Alicia, Philippines
               </CardSubtitle>
               <CardText>
                 <span className="mr-1 icon ion-md-map" />
-                100+ Hectares
+                1000+ Hectares
               </CardText>
               <Button>OPEN</Button>
             </CardBody>
@@ -67,7 +67,7 @@ export default class extends Page {
               </CardSubtitle>
               <CardText>
                 <span className="mr-1 icon ion-md-map" />
-                100+ Hectares
+                200+ Hectares
               </CardText>
               <Button>OPEN</Button>
             </CardBody>
@@ -89,7 +89,7 @@ export default class extends Page {
               </CardSubtitle>
               <CardText>
                 <span className="mr-1 icon ion-md-map" />
-                100+ Hectares
+                400+ Hectares
               </CardText>
               <Button>OPEN</Button>
             </CardBody>
@@ -137,7 +137,7 @@ export default class extends Page {
               </CardSubtitle>
               <CardText>
                 <span className="mr-1 icon ion-md-map" />
-                100+ Hectares
+                600+ Hectares
               </CardText>
               <Button>OPEN</Button>
             </CardBody>
@@ -159,7 +159,7 @@ export default class extends Page {
               </CardSubtitle>
               <CardText>
                 <span className="mr-1 icon ion-md-map" />
-                100+ Hectares
+                1200+ Hectares
               </CardText>
               <Button>OPEN</Button>
             </CardBody>
