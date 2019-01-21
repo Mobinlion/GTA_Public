@@ -132,11 +132,11 @@ export default class extends Page {
                     id="collapseTwo"
                   >
                     <CardBody>
-                      <P>Choose Product - After having successfully register an
+                      Choose Product - After having successfully register an
                       account, you can be able to fund a farm or choose a
                       product. Some products are unavailable and some farms are
                       not open for the current cycle. You can only fund
-                      available farms/products. </P>
+                      available farms/products. 
                       
                       To fund a farm or choose a
                       product, kindly click OUR FARMS tab at the top left corner
@@ -147,8 +147,8 @@ export default class extends Page {
                       the form. After that, just click "Add to Basket" button.
                       You can add or remove products in your basket as long as
                       you are not placing it. 
-                      <br>
                       
+
                       If you have remaining balance in
                       your account, the total product cost will automatically be
                       deducted from the total amount of GTA Balance. You
