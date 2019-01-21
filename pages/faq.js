@@ -106,7 +106,7 @@ export default class extends Page {
                       You can be a GreenThumber once you register at
                       www.greenthumbfarm.now.sh Note that you can register any time.
                       Click Signup/Login button and fill up the
-                      
+
                       registration form. Once registered, you can choose
                       available farms and products to fund.
                     </CardBody>
@@ -132,11 +132,11 @@ export default class extends Page {
                     id="collapseTwo"
                   >
                     <CardBody>
-                      Choose Product - After having successfully register an
+                      <P>Choose Product - After having successfully register an
                       account, you can be able to fund a farm or choose a
                       product. Some products are unavailable and some farms are
                       not open for the current cycle. You can only fund
-                      available farms/products. 
+                      available farms/products. </P>
                       
                       To fund a farm or choose a
                       product, kindly click OUR FARMS tab at the top left corner
