@@ -132,12 +132,13 @@ export default class extends Page {
                     id="collapseTwo"
                   >
                     <CardBody>
+                    <p> 
                       Choose Product - After having successfully register an
                       account, you can be able to fund a farm or choose a
                       product. Some products are unavailable and some farms are
                       not open for the current cycle. You can only fund
                       available farms/products. 
-                      
+                    </p> 
                       To fund a farm or choose a
                       product, kindly click OUR FARMS tab at the top left corner
                       of the website, then select available farm to fund. After
