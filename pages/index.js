@@ -79,7 +79,7 @@ export default class extends Page {
               </ListGroup>
             </Col>
             <Col xs="12" sm="4" className="pt-5">
-              <h1 className="icon ion-logo-usd text-primary text-center" />
+              <h1 className="icon ion-md-heart text-danger text-center" />
               <h3 className="text-center mb-4">Contribute</h3>
               <ListGroup>
                 <ListGroupItem>
@@ -89,8 +89,8 @@ export default class extends Page {
               </ListGroup>
             </Col>
             <Col xs="12" sm="4" className="pt-5">
-              <h1 className="icon ion-md-heart text-danger text-center" />
-              <h3 className="text-center mb-4">Be Rewarder</h3>
+              <h1 className="icon ion-logo-usd text-primary text-center" />
+              <h3 className="text-center mb-4">Be Rewarded</h3>
               <ListGroup>
                 <ListGroupItem>
                   Take a risk in farming industry and be rewarded. Reap your
