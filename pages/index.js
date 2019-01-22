@@ -36,10 +36,12 @@ export default class extends Page {
             </h1>
             <p className="lead mb-5">A new era of Farming and Organic food</p>
             <p className="text-right">
-              <a href="/" className="btn btn-outline-light btn-lg">
-                <span className="icon ion-md-leaf mr-2" />
-                Farms
-              </a>
+              <Link prefetch href="/farms">
+                <a href="/farms" className="btn btn-outline-light btn-lg">
+                  <span className="icon ion-md-leaf mr-2" />
+                  Our Farms
+                </a>
+              </Link>
             </p>
             <style jsx>{`
               .display-2 {

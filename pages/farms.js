@@ -47,7 +47,9 @@ export default class extends Page {
                 <span className="text-success mr-1 icon ion-md-map" />
                 1000+ Hectares
               </CardText>
-              <Button color="success">OPEN</Button>
+              <Button color="success" block>
+                OPEN
+              </Button>
             </CardBody>
           </Card>
           <Card>
@@ -69,7 +71,9 @@ export default class extends Page {
                 <span className="text-success mr-1 icon ion-md-map" />
                 200+ Hectares
               </CardText>
-              <Button color="success">OPEN</Button>
+              <Button color="success" block>
+                OPEN
+              </Button>
             </CardBody>
           </Card>
           <Card>
@@ -82,7 +86,11 @@ export default class extends Page {
               alt="Card image cap"
             />
             <CardBody>
-              <CardTitle>John's farm</CardTitle>
+              <CardTitle>
+                John's farm{" "}
+                {/* <span className="text-primary mr-1 icon ion-logo-facebook" />
+                <span className="text-primary mr-1 icon ion-logo-twitter" /> */}
+              </CardTitle>
               <CardSubtitle>
                 <span className="text-danger mr-1 icon ion-md-pin" />
                 Termez, Uzbekistan
@@ -91,7 +99,9 @@ export default class extends Page {
                 <span className="text-success mr-1 icon ion-md-map" />
                 400+ Hectares
               </CardText>
-              <Button color="success">OPEN</Button>
+              <Button color="success" block>
+                OPEN
+              </Button>
             </CardBody>
           </Card>
         </CardDeck>
@@ -117,7 +127,9 @@ export default class extends Page {
                 <span className="text-success mr-1 icon ion-md-map" />
                 100+ Hectares
               </CardText>
-              <Button color="success">OPEN</Button>
+              <Button color="success" block>
+                OPEN
+              </Button>
             </CardBody>
           </Card>
           <Card>
@@ -139,7 +151,9 @@ export default class extends Page {
                 <span className="text-success mr-1 icon ion-md-map" />
                 600+ Hectares
               </CardText>
-              <Button color="success">OPEN</Button>
+              <Button color="success" block>
+                OPEN
+              </Button>
             </CardBody>
           </Card>
           <Card>
@@ -161,7 +175,9 @@ export default class extends Page {
                 <span className="text-success mr-1 icon ion-md-map" />
                 1200+ Hectares
               </CardText>
-              <Button color="success">OPEN</Button>
+              <Button color="success" block>
+                OPEN
+              </Button>
             </CardBody>
           </Card>
         </CardDeck>
