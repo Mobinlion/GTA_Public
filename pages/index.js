@@ -36,10 +36,12 @@ export default class extends Page {
             </h1>
             <p className="lead mb-5">A new era of Farming and Organic food</p>
             <p className="text-right">
-              <a href="/" className="btn btn-outline-light btn-lg">
-                <span className="icon ion-md-leaf mr-2" />
-                Farms
-              </a>
+              <Link prefetch href="/farms">
+                <a href="/farms" className="btn btn-outline-light btn-lg">
+                  <span className="icon ion-md-leaf mr-2" />
+                  Our Farms
+                </a>
+              </Link>
             </p>
             <style jsx>{`
               .display-2 {
@@ -77,7 +79,7 @@ export default class extends Page {
               </ListGroup>
             </Col>
             <Col xs="12" sm="4" className="pt-5">
-              <h1 className="icon ion-logo-usd text-primary text-center" />
+              <h1 className="icon ion-md-heart text-danger text-center" />
               <h3 className="text-center mb-4">Contribute</h3>
               <ListGroup>
                 <ListGroupItem>
@@ -87,8 +89,8 @@ export default class extends Page {
               </ListGroup>
             </Col>
             <Col xs="12" sm="4" className="pt-5">
-              <h1 className="icon ion-md-heart text-danger text-center" />
-              <h3 className="text-center mb-4">Be Rewarder</h3>
+              <h1 className="icon ion-logo-usd text-primary text-center" />
+              <h3 className="text-center mb-4">Be Rewarded</h3>
               <ListGroup>
                 <ListGroupItem>
                   Take a risk in farming industry and be rewarded. Reap your
