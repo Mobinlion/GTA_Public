@@ -685,6 +685,38 @@ export default class extends Page {
                       country and we believe that without you, this will not be
                       possible. 
                       </p>
+                      <p>How do we manage climate change and natural disasters? </p>
+        <p>
+          GreenThumb has its ways on battling climate change and natural
+          disasters. Take for example El Niño (a natural occurring phenomenon
+          which causes warming. This warming causes a shift in the atmospheric
+          circulation with rainfall becoming reduced over the areas affected),
+          GreenThumb has built water its own reservoirs to facilitate this
+          issue. It enables our farmers to water the plants despite of water
+          scarcity.{" "}
+        </p>
+        <p>
+          La Niña is also another occurring phenomenon. It is the counterpart of
+          El Niño. This phenomenon causes heavy rains which leads to massive
+          flooding’s on affected areas. GreenThumb builds drainage canals to
+          expel the excess waters accumulating. This ensures that the plant
+          won’t drown and be destroyed. Some of our farms are strategically
+          located on high areas to avoid the effects of La Niña.{" "}
+        </p>
+        <p>
+          We also planted guard plants which protects our crops from strong wind
+          currents which can destroy our plants.{" "}
+        </p>
+        <p>
+          Despite the changing seasons, GreenThumb will continue to develop and
+          look for solutions, in battling the serious effects of climate change.{" "}
+        </p>
+        <p>
+          If in case the farm has been devastated by natural calamities; (such
+          as earthquakes, storms, flooding’s, and uncontrolled pestilence)
+          GreenThumb will replant crops as well as raise livestock again to
+          ensure that the community’s demand will be met.
+          </p>
                     </CardBody>
                   </Collapse>
                 </Card>
