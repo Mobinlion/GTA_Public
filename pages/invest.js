@@ -7,69 +7,35 @@ export default class extends Page {
   render() {
     return (
       <Layout {...this.props}>
-        <h1 className="display-2">Invest</h1>
-        <h2>Green Thumb Agriculture.</h2>
+        <h1 className="display-2">How Does It Work</h1>
+        <h2>Investment</h2>
         <p>
           GreenThumb uses the concept of crowdfunding in assisting our farmers.
-          How does crowdfunding works?{" "}
+          How to participate?{" "}
         </p>
         <p>
-          In every cycle GreenThumb will open a new project, which will then be
-          funded by the contributions given by our crowdfunding community. Our
-          crowdfunders will then choose a specific product from the list which
-          GreenThumb will be posting. With the aid of the given contribution,
-          our farmers can start the production.
+          In every season GreenThumb will open a number of new farms, of which 
+          the nature will depend on the the marketability of the products, and the
+          proficiency of the farmers enrolled. These farms will then be open to be
+          funded by the investors for a period of two months, before then investment window
+          closes. Within this window of two months, investors are free to 
+          choose a specific or a range of products to invest in. 
+          The farms that received enough funding to reach the "softcap" or the "hardcap" will
+          kicked off according to the execution plan after the two months period. 
         </p>
         <p>
-          Members who have given their contribution for that project will
-          receive reward only if the project has been deemed successful. Each
-          community members must also acknowledge the risks involved in farming.
-          Factors like climate change and natural disasters are some of the
-          risks involved.
+          GTAers who have invested in the farms will
+          receive reward only after the crops have been harvested and sold. Each
+          community member must also acknowledge the risks involved in farming, as returns 
+          on investment are not guaranteed and may vary.
+          In the cases of extreme losses suffered from an unforeseen event such as super typhoon that 
+          destroys the crop,
+          , it is anticipated that investors will not
+          be able to receive their returns immediately after the projected growth season. GTA will protect
+          the interest of our investors by replaceing the seeds and replanting the crops with NO ADDITIONAL 
+          cost. 
         </p>
 
-        <h2>How we manage the risk?</h2>
-        <p>Profits are not guaranteed but risks are managed! </p>
-        <p>
-          With the equipment of new methodologies and techniques in farming, we
-          were able to enhance the production of our products. Easy to grow
-          lowland crops and vegetables (such as papaya, petsay, string beans,
-          legumes, varieties of pepper and others) are our main products. Along
-          with crops, livestocks (such as pigs, goats, ducks, and chickens) are
-          being domesticated.
-        </p>
-        <p>How do we manage climate change and natural disasters? </p>
-        <p>
-          GreenThumb has its ways on battling climate change and natural
-          disasters. Take for example El Niño (a natural occurring phenomenon
-          which causes warming. This warming causes a shift in the atmospheric
-          circulation with rainfall becoming reduced over the areas affected),
-          GreenThumb has built water its own reservoirs to facilitate this
-          issue. It enables our farmers to water the plants despite of water
-          scarcity.{" "}
-        </p>
-        <p>
-          La Niña is also another occurring phenomenon. It is the counterpart of
-          El Niño. This phenomenon causes heavy rains which leads to massive
-          flooding’s on affected areas. GreenThumb builds drainage canals to
-          expel the excess waters accumulating. This ensures that the plant
-          won’t drown and be destroyed. Some of our farms are strategically
-          located on high areas to avoid the effects of La Niña.{" "}
-        </p>
-        <p>
-          We also planted guard plants which protects our crops from strong wind
-          currents which can destroy our plants.{" "}
-        </p>
-        <p>
-          Despite the changing seasons, GreenThumb will continue to develop and
-          look for solutions, in battling the serious effects of climate change.{" "}
-        </p>
-        <p>
-          If in case the farm has been devastated by natural calamities; (such
-          as earthquakes, storms, flooding’s, and uncontrolled pestilence)
-          GreenThumb will replant crops as well as raise livestock again to
-          ensure that the community’s demand will be met.
-        </p>
 
         <h2>The Future</h2>
         <p>
