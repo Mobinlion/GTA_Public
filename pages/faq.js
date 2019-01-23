@@ -685,6 +685,15 @@ export default class extends Page {
                       country and we believe that without you, this will not be
                       possible. 
                       </p>
+                      <p>Profits are not guaranteed but risks are managed! </p>
+        <p>
+          With the equipment of new methodologies and techniques in farming, we
+          were able to enhance the production of our products. Easy to grow
+          lowland crops and vegetables (such as papaya, petsay, string beans,
+          legumes, varieties of pepper and others) are our main products. Along
+          with crops, livestocks (such as pigs, goats, ducks, and chickens) are
+          being domesticated.
+        </p>
                       <p>How do we manage climate change and natural disasters? </p>
         <p>
           GreenThumb has its ways on battling climate change and natural
