@@ -62,7 +62,8 @@ export default class extends Page {
 
         <p>
           With the technical assistance and through the fundings of our
-          crowdfunders, we were able to help our farmers.
+          crowdfunders, we were able to help our farmers farm better and big, making 
+          farming great again.
         </p>
 
         <p className="lead">The Idea</p>
@@ -78,16 +79,11 @@ export default class extends Page {
           “American Dreams”. We aim to alleviate this misconception of people
           about farming, with the help of GreenThumb.{" "}
         </p>
-        <p>
-          Our continuous growth and success and our driven passion in
-          introducing farming with the aid of modern technology; thru the use of
-          social media sites and applications, has ensured that online farming
-          can be a profitable business.{" "}
-        </p>
+      
         <p>
           This is why GreenThumb was created. We wanted to help farmers have a
-          stable livelihood and income. We aim to reintroduce farming to every
-          Filipino’s around the world. We aim to bring GreenThumb closer to your
+          stable livelihood and income. We aim to reintroduce farming to everyone
+          around the world. We aim to bring GreenThumb closer to your
           home and to your heart.{" "}
         </p>
         <p>GreenThumb lets you experience the best of both worlds.</p>
