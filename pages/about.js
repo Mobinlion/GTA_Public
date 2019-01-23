@@ -87,6 +87,42 @@ export default class extends Page {
           home and to your heart.{" "}
         </p>
         <p>GreenThumb lets you experience the best of both worlds.</p>
+
+        <p>
+          We at GreenThumb believes that there is a bright future in farming. We
+          aim to change the misconception of people about it by encouraging them
+          to go back to farming. We will continue to inspire them by innovating
+          it and by bringing GreenThumb closer to your home and within the reach
+          of your hands.{" "}
+        </p>
+        <p>
+          We want to promote farming and introduce it to younger generation, so
+          that they will know the importance of this massive yet unappreciated
+          and underestimated industry.{" "}
+        </p>
+        <p>
+          GreenThumb wants to provide good quality and marketable products
+          throughout the country.{" "}
+        </p>
+        <p>
+          By supporting our team and our products, by joining us, you will be
+          able to help our farmers secure a brighter future for themselves and
+          for their families.{" "}
+        </p>
+        <p>And the top of it, you will be rewarded! </p>
+        <p>
+          Join us! Be part of our growing family. Let us help our farmers, let
+          us help alleviate poverty among them.{" "}
+        </p>
+        <p>
+          Because here on GreenThumb, we take pride on giving the best service
+          and quality agricultural products in the region.{" "}
+        </p>
+        <p>So Help! Contribute! And Be Rewarded! </p>
+        <p>
+          There is a future in farming and the future is now in your hands.{" "}
+        </p>
+        <p>Make a choice! Be a GreenThumber!</p>
       </Layout>
     );
   }
