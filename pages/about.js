@@ -11,39 +11,41 @@ export default class extends Page {
         <p className="lead">Green Thumb Agriculture.</p>
 
         <p>
-          GreenThumb Agriculture is a crowdfunding community where people can
-          help farmers on their financial needs and at the same time reap
+          GreenThumb Agriculture is a community based three-sided online 
+          marketplace that helps to connect the private investors, farmers and crop buyers.
+          Private investors can
+          help farmers on their much-needed financial support and at the same time reap
           rewards for their contributions. GreenThumb Agriculture was developed
           by OBORCHAIN, Blockchain and web publishing company based in Shanghai.
         </p>
 
         <p>
-          Established in 2012, and a pioneer in the integration of new
+          Established in 2018, and a pioneer in the integration of new
           technology. GreenThumb Agriculture has developed its own concept in
           reintroducing farming with the use of social media and online
-          applications; thru virtual farming. People who wanted to engage in
+          applications; through virtual farming. People who wanted to engage in
           farming but has no time can now participate and help by financing our
           partners at their own expenses.
         </p>
 
         <p>
-          GreenThumb Agriculture currently owns 96 hectares of farmland property
-          which we use for farming. These farms are managed by our partners and
-          local farmers and are located in Isabela and Quirino Province. The
-          farms that were tilled are all properties of GreenThumb Agriculture.
+          GreenThumb Agriculture currently owns 100 hectares of farmland property
+          which we use for farming. These farms are managed by experienced local farmers
+          under the supervision of GTA's farm keepers and farm masters from the Department of Agriculture.
+          
         </p>
 
         <p>
-          Our farmers provides man-power in the operation of the farms. They
-          make sure that the crops and livestocks are properly taken care off.
-          They also assists us in maintaining our farms by keeping it clean,
-          safe and livable.
+          Farmers provides land and man-power in the operation of the farms. They
+          make sure that the crops and livestocks are properly taken care off, and will 
+          be rewarded by the final sale of the produce.
+        
         </p>
 
         <p>
           Through GreenThumb, we were able to help our farmers in their
           financial needs by providing them capital through the community of
-          crowdfunders. We have helped them and have guided them in finding the
+          private investors. We have helped them and have guided them in finding the
           right markets for the products they produce. We provide them with
           advance methodologies and techniques (to further enrich the knowledge
           and enhance the skills of our farmers) which were introduced and
@@ -59,7 +61,7 @@ export default class extends Page {
         </p>
 
         <p>
-          With the technical assistance and thru the fundings of our
+          With the technical assistance and through the fundings of our
           crowdfunders, we were able to help our farmers.
         </p>
 
