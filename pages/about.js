@@ -7,7 +7,7 @@ export default class extends Page {
   render() {
     return (
       <Layout {...this.props}>
-        <h1 className="display-2">About</h1>
+        <h1 className="display-4">About</h1>
 
         <p>
           GreenThumb Agriculture is a community based three-sided online
