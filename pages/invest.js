@@ -7,35 +7,34 @@ export default class extends Page {
   render() {
     return (
       <Layout {...this.props}>
-        <h1 className="display-2">How Does It Work</h1>
+        <h1 className="display-4">How Does It Work?</h1>
         <h2>Investment</h2>
         <p>
           GreenThumb uses the concept of crowdfunding in assisting our farmers.
           How to participate?{" "}
         </p>
         <p>
-          In every season GreenThumb will open a number of new farms, of which 
-          the nature will depend on the the marketability of the products, and the
-          proficiency of the farmers enrolled. These farms will then be open to be
-          funded by the investors for a period of two months, before then investment window
-          closes. Within this window of two months, investors are free to 
-          choose a specific or a range of products to invest in. 
-          The farms that received enough funding to reach the "softcap" or the "hardcap" will
-          kicked off according to the execution plan after the two months period. 
+          In every season GreenThumb will open a number of new farms, of which
+          the nature will depend on the the marketability of the products, and
+          the proficiency of the farmers enrolled. These farms will then be open
+          to be funded by the investors for a period of two months, before then
+          investment window closes. Within this window of two months, investors
+          are free to choose a specific or a range of products to invest in. The
+          farms that received enough funding to reach the "softcap" or the
+          "hardcap" will kicked off according to the execution plan after the
+          two months period.
         </p>
         <p>
-          GTAers who have invested in the farms will
-          receive reward only after the crops have been harvested and sold. Each
-          community member must also acknowledge the risks involved in farming, as returns 
-          on investment are not guaranteed and may vary.
-          In the cases of extreme losses suffered from an unforeseen event such as super typhoon that 
-          destroys the crop,
-          , it is anticipated that investors will not
-          be able to receive their returns immediately after the projected growth season. GTA will protect
-          the interest of our investors by replaceing the seeds and replanting the crops with NO ADDITIONAL 
-          cost. 
+          GTAers who have invested in the farms will receive reward only after
+          the crops have been harvested and sold. Each community member must
+          also acknowledge the risks involved in farming, as returns on
+          investment are not guaranteed and may vary. In the cases of extreme
+          losses suffered from an unforeseen event such as super typhoon that
+          destroys the crop, , it is anticipated that investors will not be able
+          to receive their returns immediately after the projected growth
+          season. GTA will protect the interest of our investors by replaceing
+          the seeds and replanting the crops with NO ADDITIONAL cost.
         </p>
-
 
         <h2>The Future</h2>
         <p>
