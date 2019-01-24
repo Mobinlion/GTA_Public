@@ -8,15 +8,14 @@ export default class extends Page {
     return (
       <Layout {...this.props}>
         <h1 className="display-2">About</h1>
-        <p className="lead">Green Thumb Agriculture.</p>
 
         <p>
-          GreenThumb Agriculture is a community based three-sided online 
-          marketplace that helps to connect the private investors, farmers and crop buyers.
-          Private investors can
-          help farmers on their much-needed financial support and at the same time reap
-          rewards for their contributions. GreenThumb Agriculture was developed
-          by OBORCHAIN, Blockchain and web publishing company based in Shanghai.
+          GreenThumb Agriculture is a community based three-sided online
+          marketplace that helps to connect the private investors, farmers and
+          crop buyers. Private investors can help farmers on their much-needed
+          financial support and at the same time reap rewards for their
+          contributions. GreenThumb Agriculture was developed by OBORCHAIN,
+          Blockchain and web publishing company based in Shanghai.
         </p>
 
         <p>
@@ -29,24 +28,23 @@ export default class extends Page {
         </p>
 
         <p>
-          GreenThumb Agriculture currently owns 100 hectares of farmland property
-          which we use for farming. These farms are managed by experienced local farmers
-          under the supervision of GTA's farm keepers and farm masters from the Department of Agriculture.
-          
+          GreenThumb Agriculture currently owns 100 hectares of farmland
+          property which we use for farming. These farms are managed by
+          experienced local farmers under the supervision of GTA's farm keepers
+          and farm masters from the Department of Agriculture.
         </p>
 
         <p>
-          Farmers provides land and man-power in the operation of the farms. They
-          make sure that the crops and livestocks are properly taken care off, and will 
-          be rewarded by the final sale of the produce.
-        
+          Farmers provides land and man-power in the operation of the farms.
+          They make sure that the crops and livestocks are properly taken care
+          off, and will be rewarded by the final sale of the produce.
         </p>
 
         <p>
           Through GreenThumb, we were able to help our farmers in their
           financial needs by providing them capital through the community of
-          private investors. We have helped them and have guided them in finding the
-          right markets for the products they produce. We provide them with
+          private investors. We have helped them and have guided them in finding
+          the right markets for the products they produce. We provide them with
           advance methodologies and techniques (to further enrich the knowledge
           and enhance the skills of our farmers) which were introduced and
           developed by those who are dedicated to the craft.
@@ -62,8 +60,8 @@ export default class extends Page {
 
         <p>
           With the technical assistance and through the fundings of our
-          crowdfunders, we were able to help our farmers farm better and big, making 
-          farming great again.
+          crowdfunders, we were able to help our farmers farm better and big,
+          making farming great again.
         </p>
 
         <p className="lead">The Idea</p>
@@ -79,11 +77,11 @@ export default class extends Page {
           “American Dreams”. We aim to alleviate this misconception of people
           about farming, with the help of GreenThumb.{" "}
         </p>
-      
+
         <p>
           This is why GreenThumb was created. We wanted to help farmers have a
-          stable livelihood and income. We aim to reintroduce farming to everyone
-          around the world. We aim to bring GreenThumb closer to your
+          stable livelihood and income. We aim to reintroduce farming to
+          everyone around the world. We aim to bring GreenThumb closer to your
           home and to your heart.{" "}
         </p>
         <p>GreenThumb lets you experience the best of both worlds.</p>
