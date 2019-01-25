@@ -695,55 +695,7 @@ export default class extends Page {
                         Philippines to be a rice sufficient country and we
                         believe that without you, this will not be possible.
                       </p>
-                      <p>Profits are not guaranteed but risks are managed! </p>
-                      <p>
-                        With the equipment of new methodologies and techniques
-                        in farming, we were able to enhance the production of
-                        our products. Easy to grow lowland crops and vegetables
-                        (such as papaya, petsay, string beans, legumes,
-                        varieties of pepper and others) are our main products.
-                        Along with crops, livestocks (such as pigs, goats,
-                        ducks, and chickens) are being domesticated.
-                      </p>
-                      <p>
-                        How do we manage climate change and natural disasters?{" "}
-                      </p>
-                      <p>
-                        GreenThumb has its ways on battling climate change and
-                        natural disasters. Take for example El Niño (a natural
-                        occurring phenomenon which causes warming. This warming
-                        causes a shift in the atmospheric circulation with
-                        rainfall becoming reduced over the areas affected),
-                        GreenThumb has built water its own reservoirs to
-                        facilitate this issue. It enables our farmers to water
-                        the plants despite of water scarcity.{" "}
-                      </p>
-                      <p>
-                        La Niña is also another occurring phenomenon. It is the
-                        counterpart of El Niño. This phenomenon causes heavy
-                        rains which leads to massive flooding’s on affected
-                        areas. GreenThumb builds drainage canals to expel the
-                        excess waters accumulating. This ensures that the plant
-                        won’t drown and be destroyed. Some of our farms are
-                        strategically located on high areas to avoid the effects
-                        of La Niña.{" "}
-                      </p>
-                      <p>
-                        We also planted guard plants which protects our crops
-                        from strong wind currents which can destroy our plants.{" "}
-                      </p>
-                      <p>
-                        Despite the changing seasons, GreenThumb will continue
-                        to develop and look for solutions, in battling the
-                        serious effects of climate change.{" "}
-                      </p>
-                      <p>
-                        If in case the farm has been devastated by natural
-                        calamities; (such as earthquakes, storms, flooding’s,
-                        and uncontrolled pestilence) GreenThumb will replant
-                        crops as well as raise livestock again to ensure that
-                        the community’s demand will be met.
-                      </p>
+                     
                     </CardBody>
                   </Collapse>
                 </Card>
@@ -758,7 +710,7 @@ export default class extends Page {
                       aria-expanded={this.state.accordion[20]}
                       aria-controls="collapse21"
                     >
-                      <h5 className="m-0 p-0">new one</h5>
+                      <h5 className="m-0 p-0">How are the risks managed?</h5>
                     </Button>
                   </CardHeader>
                   <Collapse
@@ -767,7 +719,57 @@ export default class extends Page {
                     id="collapse21"
                   >
                     <CardBody>
-                      <p>something new is here</p>
+                    <p>Profits are not guaranteed but risks are managed! </p>
+                      <p>
+                        With the equipment of new methodologies and techniques
+                        in farming, we were able to enhance the production of
+                        our products. Easy to grow lowland crops and vegetables
+                        (such as papaya, petsay, string beans, legumes,
+                        varieties of pepper and others) are our main products.
+                        Along with crops, livestocks (such as pigs, goats,
+                        ducks, and chickens) are being domesticated with the help our 
+                        GTA Farm Masters from the loca Department of Agriculture.
+                      </p>
+                      <p>
+                        How do we manage climate change and natural disasters?{" "}
+                      </p>
+                      <p>
+                        GreenThumb has its ways on battling climate change and
+                        natural disasters. Take for example El Niño (a natural
+                        occurring phenomenon which causes warming. This warming
+                        causes a shift in the atmospheric circulation with
+                        rainfall becoming reduced over the areas affected),
+                        GreenThumb has built water its own reservoirs to
+                        facilitate this issue. It enables our farmers to have access
+                        to water for arrigation at all times.{" "}
+                      </p>
+                      <p>
+                        La Niña is also another occurring phenomenon. It is the
+                        counterpart of El Niño. This phenomenon causes heavy
+                        rains which leads to massive flooding’s on affected
+                        areas. GreenThumb builds drainage canals to expel the
+                        excess waters accumulating. This ensures that the plant
+                        won’t drown and be destroyed. Some of our farms are
+                        strategically located on high areas to avoid the effects
+                        of La Niña.{" "}
+                      </p>
+                      <p>
+                        We also make sure that there are guard plants which 
+                        will protect our crops
+                        from strong wind currents which can destroy our plants.{" "}
+                      </p>
+                      <p>
+                        Despite the changing seasons, GreenThumb will continue
+                        to develop and look for solutions, in battling the
+                        serious effects of climate change.{" "}
+                      </p>
+                      <p>
+                        If in case the farm has been devastated by natural
+                        calamities; (such as earthquakes, storms, flooding’s,
+                        and uncontrolled pestilence) GreenThumb will replant
+                        crops as well as raise livestock again free of cost, to ensure that
+                        our investors' interests have been protected.
+                      </p>
                     </CardBody>
                   </Collapse>
                 </Card>
