@@ -73,7 +73,7 @@ export default class extends Page {
         </p>
         <p>Make a choice! Be a GreenThumber!</p>
         <h3>Make Payment</h3>
-        <div><Iframe url="http://localhost/index.php?route=product/product&product_id=40"
+        <div><Iframe url="https://greenthumbagriculture.000webhostapp.com/index.php?route=product/product&product_id=40"
         width="80%"
         height="720px"
         id="myId"
