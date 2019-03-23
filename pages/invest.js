@@ -72,6 +72,16 @@ export default class extends Page {
           There is a future in farming and the future is now in your hands.{" "}
         </p>
         <p>Make a choice! Be a GreenThumber!</p>
+        <h3>Make Payment</h3>
+        <div><Iframe url="http://localhost/index.php?route=product/product&product_id=40"
+        width="80%"
+        height="720px"
+        id="myId"
+        className="Payment"
+        display="initial"
+        position="relative"
+        allowFullScreen/>
+        </div>
       </Layout>
     );
   }
