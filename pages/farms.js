@@ -38,10 +38,10 @@ export default class extends Page {
               alt="Card image cap"
             />
             <CardBody>
-              <CardTitle>Joe's farm</CardTitle>
+              <CardTitle>Joe's livestock farm</CardTitle>
               <CardSubtitle>
                 <span className="text-danger mr-1 icon ion-md-pin" />
-                Alicia, Philippines
+                Iloilo, Philippines
               </CardSubtitle>
               <CardText>
                 <span className="text-success mr-1 icon ion-md-map" />
