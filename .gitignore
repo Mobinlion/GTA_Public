@@ -5,3 +5,5 @@ node_modules/
 /.env.production
 package-lock.json
 info.txt
+.env
+/build
