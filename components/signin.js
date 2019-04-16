@@ -3,6 +3,7 @@ import Router from 'next/router'
 import { Row, Col, Form, Input, Label, Button } from 'reactstrap'
 import Cookies from 'universal-cookie'
 import { NextAuth } from 'next-auth/client'
+import Iframe from 'react-iframe';
 
 export default class extends React.Component {
   
@@ -53,7 +54,17 @@ export default class extends React.Component {
     } else {
       return (
         <React.Fragment>
-          <p className="text-center" style={{marginTop: 10, marginBottom: 30}}>{`If you don't have an account, one will be created when you sign in.`}</p>
+          <div><Iframe url="https://degron.io/opencart/index.php?route=account/login"
+          width="100%"
+          height="480px"
+          id="myId"
+          className="myClassname"
+          display="initial"
+          position="relative"
+          scrolling="yes"
+          allowFullScreen/>
+          </div>
+          { /*<p className="text-center" style={{marginTop: 10, marginBottom: 30}}>{`If you don't have an account, one will be created when you sign in.`}</p>
           <Row>
             <Col xs={12} md={6}>
               <SignInButtons providers={this.props.providers}/>
@@ -73,7 +84,7 @@ export default class extends React.Component {
                 </p>
               </Form>
             </Col>
-          </Row>
+      </Row>*/}
         </React.Fragment>
       )
     }
