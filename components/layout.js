@@ -108,13 +108,13 @@ export default class extends React.Component {
                   </a>
                 </Link>
               </NavItem>
-              <NavItem>
+              {/*<NavItem>
                 <Link prefetch href="/invest">
                   <a href="/invest" className="nav-link">
                     Invest
                   </a>
                 </Link>
-              </NavItem>
+              </NavItem> */}
               <NavItem>
                 <Link prefetch href="/contact">
                   <a href="/contact" className="nav-link">
@@ -211,7 +211,7 @@ export class MainBody extends React.Component {
             <Col xs="12" md="9" lg="10">
               {this.props.children}
             </Col>
-            <Col xs="12" md="3" lg="2" style={{ paddingTop: "1em" }}>
+           {/* <Col xs="12" md="3" lg="2" style={{ paddingTop: "1em" }}>
               <h5 className="text-muted text-uppercase">Countries</h5>
               <ListGroup>
                 <ListGroupItem>
@@ -250,7 +250,7 @@ export class MainBody extends React.Component {
                   </Link>
                 </ListGroupItem>
               </ListGroup>
-            </Col>
+            </Col>*/}
           </Row>
         </Container>
       );

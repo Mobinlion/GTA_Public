@@ -3,6 +3,7 @@
 import Page from "../components/page";
 import Layout from "../components/layout";
 import Link from "next/link";
+import StarRatings from 'react-star-ratings';
 import dynamic from "next/dynamic";
 import {
   Card,
@@ -46,7 +47,14 @@ export default class extends Page {
               <CardText>
                 <span className="text-success mr-1 icon ion-md-map" />
                 1000+ Hectares
-              </CardText>
+                <StarRatings
+                  rating={4.6}
+                  starDimension="20px"
+                  starSpacing="15px"
+                  starRatedColor="yellow"
+                />
+              </CardText>               
+              
               <a href="../farms/farmiloilo"><Button color="success" block>
                 OPEN
               </Button>
