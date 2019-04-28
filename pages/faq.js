@@ -126,7 +126,7 @@ export default class extends Page {
                   >
                     <CardBody>
                       You can be a GreenThumber once you register at
-                      www.greenthumbfarm.now.sh Note that you can register any
+                      greenthumb.farm Note that you can register any
                       time. Click Signup/Login button and fill up the
                       registration form. Once registered, you can choose
                       available farms and products to fund.

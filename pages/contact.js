@@ -15,7 +15,7 @@ export default class extends Page {
 
         <p className="lead">Contacts</p>
         <p>
-          <b>Phone:</b> +86 1111 222 3344
+          <b>Phone:</b> +86 156 0185 2546
           <br />
           <b>Email:</b> info@greenthumb.farm
         </p>
