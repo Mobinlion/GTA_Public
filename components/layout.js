@@ -165,12 +165,13 @@ export default class extends React.Component {
                   </Link>
                 </div>
               </div>
-              <a href="#" style={{margin:"0px 20px"}}>
-                <FacebookIcon size={24} round={false} /> 
-              </a>
-              <a href="#">
-                <TwitterIcon size={26} round={true} />
-              </a>
+                <a href="#" style={{margin:"5px 20px"}}>
+                  <FacebookIcon size={24} round={false} /> 
+                </a>
+                <a href="#" style={{margin:"5px 20px"}}>
+                  <TwitterIcon size={26} round={true} />
+                </a>
+
             </Nav>
             <UserMenu
               session={this.props.session}

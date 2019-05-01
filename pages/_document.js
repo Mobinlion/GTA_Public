@@ -11,6 +11,7 @@ export default class extends Document {
         <Head>
           <link rel="icon" type="image/x-icon" href="../static/favicon.ico" />
           <link href="https://api.mapbox.com/mapbox-gl-js/v0.51.0/mapbox-gl.css" rel="stylesheet" /> 
+          <link rel="stylesheet" href="../static/carousel.min.css"/>
         </Head>
         <body>
           <Main />
