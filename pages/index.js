@@ -33,7 +33,7 @@ export default class extends Page {
           <Container className="mt-2 mb-2">
             <h1 className="display-2 mb-3" style={{ fontWeight: 300 }}>
               <span style={{ fontWeight: 600 }}>
-                <span className="mr-3 icon ion-md-leaf" />
+                {/*<span className="mr-3 icon ion-md-leaf" />*/}
                 <br className="v-block d-sm-none" />
                 Green Thumb
               </span>
@@ -41,16 +41,16 @@ export default class extends Page {
             </h1>
             {/*<p className="lead mb-5">A new era of Farming and Organic food</p>*/}
             <p className="lead mb-5">A New Era of Farming</p>
-            <p className="text-right">
+            {/*<p className="text-right">
               <Link prefetch href="/farms">
                 <a href="/farms" className="btn btn-outline-light btn-lg">
                   <span className="icon ion-md-leaf mr-2" />
                   Our Farms
                 </a>
               </Link>
-            </p>
+              </p>*/}
             <p className="text-left"> Subscribe to our mailing list:
-            <MailchimpSubscribe url={url}/>
+              <MailchimpSubscribe url={url}/>
             </p>
             
             <style jsx>{`

@@ -46,14 +46,15 @@ export default class extends Page {
               </CardSubtitle>
               <CardText>
                 <span className="text-success mr-1 icon ion-md-map" />
-                1000+ Hectares
+                1000+ Hectares <p>Farm Rating:</p>
                 <StarRatings
                   rating={4.6}
+                  numberOfStars={5}
                   starDimension="20px"
-                  starSpacing="15px"
-                  starRatedColor="yellow"
+                  starSpacing="7px"
+                  starRatedColor="green"
                 />
-              </CardText>               
+              </CardText>              
               
               <a style={{textDecoration: 'none'}} href="../farms/farmiloilo"><Button color="success" block>
                 OPEN
@@ -78,11 +79,11 @@ export default class extends Page {
               </CardSubtitle>
               <CardText>
                 <span className="text-success mr-1 icon ion-md-map" />
-                200+ Hectares
+                200+ Hectares <p>Farm Rating:</p>
                 <StarRatings
                   rating={0.0}
                   starDimension="20px"
-                  starSpacing="15px"
+                  starSpacing="7px"
                   starRatedColor="yellow"
                 />
               </CardText>
@@ -112,11 +113,11 @@ export default class extends Page {
               </CardSubtitle>
               <CardText>
                 <span className="text-success mr-1 icon ion-md-map" />
-                400+ Hectares
+                400+ Hectares <p>Farm Rating:</p>
                 <StarRatings
                   rating={0.0}
                   starDimension="20px"
-                  starSpacing="15px"
+                  starSpacing="7px"
                   starRatedColor="yellow"
                 />
               </CardText>
@@ -146,11 +147,11 @@ export default class extends Page {
               </CardSubtitle>
               <CardText>
                 <span className="text-success mr-1 icon ion-md-map" />
-                100+ Hectares
+                100+ Hectares <p>Farm Rating:</p>
                 <StarRatings
                   rating={0.0}
                   starDimension="20px"
-                  starSpacing="15px"
+                  starSpacing="7px"
                   starRatedColor="yellow"
                 />
               </CardText>
@@ -176,11 +177,11 @@ export default class extends Page {
               </CardSubtitle>
               <CardText>
                 <span className="text-success mr-1 icon ion-md-map" />
-                600+ Hectares
+                600+ Hectares <p>Farm Rating:</p>
                 <StarRatings
                   rating={0.0}
                   starDimension="20px"
-                  starSpacing="15px"
+                  starSpacing="7px"
                   starRatedColor="yellow"
                 />
               </CardText>
@@ -206,11 +207,11 @@ export default class extends Page {
               </CardSubtitle>
               <CardText>
                 <span className="text-success mr-1 icon ion-md-map" />
-                1200+ Hectares
+                1200+ Hectares  <p>Farm Rating:</p>
                 <StarRatings
                   rating={0.0}
                   starDimension="20px"
-                  starSpacing="15px"
+                  starSpacing="7px"
                   starRatedColor="yellow"
                 />
               </CardText>
