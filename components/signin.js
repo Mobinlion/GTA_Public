@@ -3,7 +3,6 @@ import Router from 'next/router'
 import { Row, Col, Form, Input, Label, Button } from 'reactstrap'
 import Cookies from 'universal-cookie'
 import { NextAuth } from 'next-auth/client'
-import Iframe from 'react-iframe';
 
 export default class extends React.Component {
   
@@ -54,16 +53,6 @@ export default class extends React.Component {
     } else {
       return (
         <React.Fragment>
-          { /*<div><Iframe url="https://degron.io/opencart/index.php?route=account/login"
-          width="100%"
-          height="480px"
-          id="myId"
-          className="myClassname"
-          display="initial"
-          position="relative"
-          scrolling="yes"
-          allowFullScreen/>
-          </div>*/}
           <p className="text-center" style={{marginTop: 10, marginBottom: 30}}>{`If you don't have an account, one will be created when you sign in.`}</p>
           <Row>
             <Col xs={12} md={6}>
@@ -74,7 +63,7 @@ export default class extends React.Component {
                 <Input name="_csrf" type="hidden" value={this.state.session.csrfToken}/>
                 <p>
                   <Label htmlFor="email">Email address</Label><br/>
-                  <Input name="email" disabled={this.state.submitting} type="text" placeholder="j.smith@example.com" id="email" className="form-control" value={this.state.email} onChange={this.handleEmailChange}/>
+                  <Input name="email" disabled={this.state.submitting} type="text" placeholder="example@greenthumb.com" id="email" className="form-control" value={this.state.email} onChange={this.handleEmailChange}/>
                 </p>
                 <p className="text-right">
                   <Button id="submitButton" disabled={this.state.submitting} outline color="dark" type="submit">
