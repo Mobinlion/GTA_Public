@@ -54,7 +54,7 @@ export default class extends React.Component {
     } else {
       return (
         <React.Fragment>
-          <div><Iframe url="https://degron.io/opencart/index.php?route=account/login"
+          {/*<div><Iframe url="https://degron.io/opencart/index.php?route=account/login"
           width="100%"
           height="480px"
           id="myId"
@@ -63,8 +63,8 @@ export default class extends React.Component {
           position="relative"
           scrolling="yes"
           allowFullScreen/>
-          </div>
-          { /*<p className="text-center" style={{marginTop: 10, marginBottom: 30}}>{`If you don't have an account, one will be created when you sign in.`}</p>
+      </div>*/}
+          <p className="text-center" style={{marginTop: 10, marginBottom: 30}}>{`If you don't have an account, one will be created when you sign in.`}</p>
           <Row>
             <Col xs={12} md={6}>
               <SignInButtons providers={this.props.providers}/>
@@ -84,7 +84,7 @@ export default class extends React.Component {
                 </p>
               </Form>
             </Col>
-      </Row>*/}
+          </Row>
         </React.Fragment>
       )
     }
