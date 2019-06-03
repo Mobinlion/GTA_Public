@@ -363,8 +363,8 @@ export class UserMenu extends React.Component {
               className="btn btn-outline-primary"
               onClick={this.props.toggleModal}
             >
-             {/* <span className="icon ion-md-log-in mr-1" /> Sign up / Sign in */}
-             <span className="icon ion-md-log-in mr-1" /> Account
+              <span className="icon ion-md-log-in mr-1" /> Sign up / Sign in 
+             {/*<span className="icon ion-md-log-in mr-1" /> Account*/}
             </a>
           </NavItem>
         </Nav>
@@ -401,8 +401,8 @@ export class SigninModal extends React.Component {
         toggle={this.props.toggleModal}
         style={{ maxWidth: 700 }}
       >
-        {/* <ModalHeader>Sign up / Sign in</ModalHeader> */}
-        <ModalHeader>Account</ModalHeader>
+         <ModalHeader>Sign up / Sign in</ModalHeader> 
+        {/*<ModalHeader>Account</ModalHeader>*/}
         <ModalBody style={{ padding: "1em 2em" }}>
           <Signin
             session={this.props.session}
