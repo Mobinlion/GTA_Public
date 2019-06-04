@@ -401,8 +401,8 @@ export class SigninModal extends React.Component {
         toggle={this.props.toggleModal}
         style={{ maxWidth: 700 }}
       >
-         <ModalHeader>Sign up / Sign in</ModalHeader> 
-        {/*<ModalHeader>Account</ModalHeader>*/}
+        {/* <ModalHeader>Sign up / Sign in</ModalHeader> */}
+        <ModalHeader>Account</ModalHeader>
         <ModalBody style={{ padding: "1em 2em" }}>
           <Signin
             session={this.props.session}
