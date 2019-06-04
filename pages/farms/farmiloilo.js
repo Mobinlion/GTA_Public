@@ -54,7 +54,7 @@ export default class extends Page {
           </Col>
         </Row>
         <h3>Invest Now:</h3>
-        <div style={{border:"none"}}><Iframe style={{border:"none"}} url="https://degron.io/opencart/index.php?route=product/product&product_id=40"
+        <div><Iframe url="https://degron.io/opencart/index.php?route=product/product&product_id=40"
         width="80%"
         height="1024px"
         id="myId"
@@ -62,7 +62,6 @@ export default class extends Page {
         display="initial"
         position="relative"
         scrolling="yes"
-        frameBorder="0"
         allowFullScreen/>
         </div>
         <style jsx>{`
