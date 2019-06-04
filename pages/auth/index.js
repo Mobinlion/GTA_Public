@@ -46,8 +46,7 @@ export default class extends Page {
     } else {
       return (
         <Layout {...this.props} navmenu={false} signinBtn={false}>
-          {/*<h1 className="text-center display-4 mt-5">Sign up / Sign in</h1> */}
-          <h1 className="text-center display-4 mt-5">Account</h1>
+          <h1 className="text-center display-4 mt-5">Sign up / Sign in</h1>
           <Row className="mb-5">
             <Col lg="8" className="mr-auto ml-auto" style={{marginBottom: 20}}>
               <SignIn session={this.props.session} providers={this.props.providers}/>
