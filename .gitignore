@@ -7,4 +7,3 @@ package-lock.json
 info.txt
 .env
 /build
-.env.example
