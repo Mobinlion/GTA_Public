@@ -363,8 +363,8 @@ export class UserMenu extends React.Component {
               className="btn btn-outline-primary"
               onClick={this.props.toggleModal}
             >
-             {/* <span className="icon ion-md-log-in mr-1" /> Sign up / Sign in */}
-             <span className="icon ion-md-log-in mr-1" /> Account
+              <span className="icon ion-md-log-in mr-1" /> Sign up / Sign in 
+             {/*<span className="icon ion-md-log-in mr-1" /> Account*/}
             </a>
           </NavItem>
         </Nav>
