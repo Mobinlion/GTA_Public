@@ -58,7 +58,6 @@ export default class extends Page {
         className="myClassname"
         display="initial"
         position="relative"
-        scrolling="yes"
         allowFullScreen/>
         </div>
       </Layout>
