@@ -3,7 +3,7 @@
 import Page from "../components/page";
 import Layout from "../components/layout";
 import Link from "next/link";
-import StarRatings from "react-star-ratings";
+import StarRatings from 'react-star-ratings';
 import dynamic from "next/dynamic";
 import {
   Card,
@@ -55,7 +55,7 @@ export default class extends Page {
                 />
               </CardText>               
               
-              <a style={{textDecoration: 'none'}} href="../farms/farmiloilo"><Button color="success" block>
+              <a href="../farms/farmiloilo"><Button color="success" block>
                 OPEN
               </Button>
               </a>
@@ -79,12 +79,6 @@ export default class extends Page {
               <CardText>
                 <span className="text-success mr-1 icon ion-md-map" />
                 200+ Hectares
-                <StarRatings
-                  rating={0.0}
-                  starDimension="20px"
-                  starSpacing="15px"
-                  starRatedColor="yellow"
-                />
               </CardText>
               <Button color="success" block>
                 OPEN
@@ -113,12 +107,6 @@ export default class extends Page {
               <CardText>
                 <span className="text-success mr-1 icon ion-md-map" />
                 400+ Hectares
-                <StarRatings
-                  rating={0.0}
-                  starDimension="20px"
-                  starSpacing="15px"
-                  starRatedColor="yellow"
-                />
               </CardText>
               <Button color="success" block>
                 OPEN
@@ -147,12 +135,6 @@ export default class extends Page {
               <CardText>
                 <span className="text-success mr-1 icon ion-md-map" />
                 100+ Hectares
-                <StarRatings
-                  rating={0.0}
-                  starDimension="20px"
-                  starSpacing="15px"
-                  starRatedColor="yellow"
-                />
               </CardText>
               <Button color="success" block>
                 OPEN
@@ -177,12 +159,6 @@ export default class extends Page {
               <CardText>
                 <span className="text-success mr-1 icon ion-md-map" />
                 600+ Hectares
-                <StarRatings
-                  rating={0.0}
-                  starDimension="20px"
-                  starSpacing="15px"
-                  starRatedColor="yellow"
-                />
               </CardText>
               <Button color="success" block>
                 OPEN
@@ -207,12 +183,6 @@ export default class extends Page {
               <CardText>
                 <span className="text-success mr-1 icon ion-md-map" />
                 1200+ Hectares
-                <StarRatings
-                  rating={0.0}
-                  starDimension="20px"
-                  starSpacing="15px"
-                  starRatedColor="yellow"
-                />
               </CardText>
               <Button color="success" block>
                 OPEN
