@@ -4,6 +4,7 @@ import Page from "../../components/page";
 import Layout from "../../components/layout";
 import Link from 'next/link'
 import dynamic from 'next/dynamic';
+import Iframe from 'react-iframe';
 import { Carousel } from 'react-responsive-carousel';
 
 import {
@@ -52,6 +53,18 @@ export default class extends Page {
               </Carousel>
           </Col>
         </Row>
+        {/*<h3>Invest Now:</h3>
+        <div style={{border:"none"}}><Iframe style={{border:"none"}} url="https://degron.io/opencart/index.php?route=product/product&product_id=40"
+        width="80%"
+        height="1024px"
+        id="myId"
+        className="FrameBorderRemove"
+        display="initial"
+        position="relative"
+        scrolling="yes"
+        frameBorder="0"
+        allowFullScreen/>
+    </div>*/}
         <style jsx>{`
       .FrameBorderRemove {
         border:none;
