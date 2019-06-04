@@ -15,7 +15,7 @@ import MailchimpSubscribe from "react-mailchimp-subscribe";
 import { Carousel } from 'react-responsive-carousel';
 
 
-const url = "https://yahoo.us20.list-manage.com/subscribe/post?u=f6ac22f6b712eebce6855f799&amp;id=fea44e06eb";
+
 
 export default class extends Page {
   render() {
@@ -49,9 +49,7 @@ export default class extends Page {
                 </a>
               </Link>
               </p>*/}
-            <p className="text-left"> Subscribe to our mailing list:
-              <MailchimpSubscribe url={url}/>
-            </p>
+          
             
             <style jsx>{`
               .display-2 {

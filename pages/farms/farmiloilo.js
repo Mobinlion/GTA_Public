@@ -52,11 +52,6 @@ export default class extends Page {
               </Carousel>
           </Col>
         </Row>
-        <style jsx>{`
-      .FrameBorderRemove {
-        border:none;
-      }
-    `}</style>
       </Layout>
     );
   }
