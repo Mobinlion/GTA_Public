@@ -52,10 +52,9 @@ export default class extends Page {
         </Row>
         <h3>Invest Now:</h3>
         <div><Iframe url="https://degron.io/opencart/index.php?route=product/product&product_id=40"
-        width="80%"
+        width="680px"
         height="760px"
-        id="myId"
-        className="myClassname"
+        className="Payment"
         display="initial"
         position="relative"
         allowFullScreen/>
