@@ -47,10 +47,9 @@ export default class extends Page {
                 <span className="text-success mr-1 icon ion-md-map" />
                 1000+ Hectares
               </CardText>
-              <a href="../farms/farmiloilo"><Button color="success" block>
+              <Button color="success" block>
                 OPEN
               </Button>
-              </a>
             </CardBody>
           </Card>
           <Card>

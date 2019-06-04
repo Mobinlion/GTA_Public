@@ -2,6 +2,7 @@ import SyntaxHighlighter from "react-syntax-highlighter";
 import { atomDark as SyntaxHighlighterTheme } from "react-syntax-highlighter/dist/styles/prism";
 import Page from "../components/page";
 import Layout from "../components/layout";
+import Iframe from "react-iframe";
 
 export default class extends Page {
   render() {
@@ -72,6 +73,16 @@ export default class extends Page {
           There is a future in farming and the future is now in your hands.{" "}
         </p>
         <p>Make a choice! Be a GreenThumber!</p>
+        <h3>Make Payment</h3>
+        <div><Iframe url="https://greenthumbagriculture.000webhostapp.com/index.php?route=product/product&product_id=40"
+        width="80%"
+        height="720px"
+        id="myId"
+        className="Payment"
+        display="initial"
+        position="relative"
+        allowFullScreen/>
+        </div>
       </Layout>
     );
   }
