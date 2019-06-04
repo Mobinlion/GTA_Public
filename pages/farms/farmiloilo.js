@@ -4,6 +4,7 @@ import Page from "../../components/page";
 import Layout from "../../components/layout";
 import Link from 'next/link'
 import dynamic from 'next/dynamic';
+import Iframe from "react-iframe";
 
 import {
     Container,
@@ -37,7 +38,7 @@ export default class extends Page {
   render() {
     return (
       <Layout {...this.props}>
-        <h1 className="display-2">iloilo farm</h1>
+        <h1 className="display-2">iloilo livestock farm</h1>
         <Row>
          <Col xs="12" md="5" lg="4">
             <p className="lead">Farm Owner: Joe</p>
@@ -49,6 +50,15 @@ export default class extends Page {
             <DynamicComponentWithNoSSR />
          </Col>
         </Row>
+        <h3>Invest Now:</h3>
+        <div><Iframe url="http://degron.io/opencart/index.php?route=product/product&product_id=40"
+        width="680px"
+        height="680px"
+        className="Payment"
+        display="initial"
+        position="relative"
+        allowFullScreen/>
+        </div>
       </Layout>
     );
   }
