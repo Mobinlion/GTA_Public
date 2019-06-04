@@ -22,8 +22,6 @@ export default class extends Page {
       isSignedIn: props.session.user ? true : false,
       name: "",
       email: "",
-      mobile: "",
-      bank: "",
       emailVerified: false,
       alertText: null,
       alertStyle: null
@@ -31,8 +29,6 @@ export default class extends Page {
     if (props.session.user) {
       this.state.name = props.session.user.name;
       this.state.email = props.session.user.email;
-      this.state.mobile = props.session.user.mobile;
-      this.state.bank = props.session.user.bank;
     }
     this.handleChange = this.handleChange.bind(this);
     this.onSubmit = this.onSubmit.bind(this);
@@ -63,8 +59,6 @@ export default class extends Page {
         this.setState({
           name: user.name,
           email: user.email,
-          mobile: user.mobile,
-          bank: user.bank,
           emailVerified: user.emailVerified
         });
       });
@@ -88,9 +82,7 @@ export default class extends Page {
     const formData = {
       _csrf: await NextAuth.csrfToken(),
       name: this.state.name || "",
-      email: this.state.email || "",
-      mobile: this.state.mobile || "",
-      bank: this.state.bank || ""
+      email: this.state.email || ""
     };
 
     // URL encode form
@@ -174,26 +166,6 @@ export default class extends Page {
                     <Input
                       name="name"
                       value={this.state.name}
-                      onChange={this.handleChange}
-                    />
-                  </Col>
-                </FormGroup>
-                <FormGroup row>
-                  <Label sm={2}>Mobile:</Label>
-                  <Col sm={10} md={8}>
-                    <Input
-                      name="mobile"
-                      value={this.state.mobile}
-                      onChange={this.handleChange}
-                    />
-                  </Col>
-                </FormGroup>
-                <FormGroup row>
-                  <Label sm={2}>Bank Details:</Label>
-                  <Col sm={10} md={8}>
-                    <Input
-                      name="bank"
-                      value={this.state.bank}
                       onChange={this.handleChange}
                     />
                   </Col>
