@@ -131,7 +131,7 @@ export default class extends Page {
 
         <h2>The Future</h2>
         <p>
-          We at GreenThumb believes that there is a bright future in farming. We
+          We at GreenThumb believe that there is a bright future in farming. We
           aim to change the misconception of people about it by encouraging them
           to go back to farming. We will continue to inspire them by innovating
           it and by bringing GreenThumb closer to your home and within the reach

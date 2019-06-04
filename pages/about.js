@@ -2,6 +2,16 @@ import SyntaxHighlighter from "react-syntax-highlighter";
 import { atomDark as SyntaxHighlighterTheme } from "react-syntax-highlighter/dist/styles/prism";
 import Page from "../components/page";
 import Layout from "../components/layout";
+import {
+  Card,
+  Button,
+  CardImg,
+  CardTitle,
+  CardText,
+  CardDeck,
+  CardSubtitle,
+  CardBody
+} from "reactstrap";
 
 export default class extends Page {
   render() {
@@ -121,6 +131,156 @@ export default class extends Page {
           There is a future in farming and the future is now in your hands.{" "}
         </p>
         <p>Make a choice! Be a GreenThumber!</p>
+
+        <h2 className="display-4">Meet the Team</h2>
+        <CardDeck>
+          <Card>
+            <CardImg
+              top
+              width="100%"
+              src="../static/team/team-member.jpg"
+              width="256"
+              height="256"
+              alt="Card image cap"
+            />
+            <CardBody>
+              <CardTitle>Joe</CardTitle>
+              <CardSubtitle>
+                <a href="https://linkedin.com/in/mobinarablou"> 
+                  <span className="text-primary mr-1 icon ion-logo-linkedin" />
+                </a>
+                Business
+              </CardSubtitle>
+              <CardText>
+                {/*<span className="text-success mr-1 icon ion-md-map" />*/}
+                Business guys
+              </CardText>               
+            </CardBody>
+          </Card>
+          <Card>
+            <CardImg
+              top
+              width="100%"
+              src="../static/team/team-member.jpg"
+              width="256"
+              height="256"
+              alt="Card image cap"
+            />
+            <CardBody>
+              <CardTitle>Mark</CardTitle>
+              <CardSubtitle>
+                <a href="https://linkedin.com/in/mobinarablou"> 
+                  <span className="text-primary mr-1 icon ion-logo-linkedin" />
+                </a>
+                Business
+              </CardSubtitle>
+              <CardText>
+                {/*<span className="text-success mr-1 icon ion-md-map" />*/}
+                Business guys
+              </CardText>
+            </CardBody>
+          </Card>
+          <Card>
+            <CardImg
+              top
+              width="100%"
+              src="../static/team/team-member.jpg"
+              width="256"
+              height="256"
+              alt="Card image cap"
+            />
+            <CardBody>
+              <CardTitle>
+                John{" "}
+                {/* <span className="text-primary mr-1 icon ion-logo-facebook" />
+                <span className="text-primary mr-1 icon ion-logo-twitter" /> */}
+              </CardTitle>
+              <CardSubtitle>
+                <a href="https://linkedin.com/in/mobinarablou"> 
+                  <span className="text-primary mr-1 icon ion-logo-linkedin" />
+                </a>
+                Technology
+              </CardSubtitle>
+              <CardText>
+                {/*<span className="text-success mr-1 icon ion-md-map" />*/}
+                Tech guys
+              </CardText>
+            </CardBody>
+          </Card>
+        </CardDeck>
+        <p />
+
+        <CardDeck>
+          <Card>
+            <CardImg
+              top
+              width="100%"
+              src="../static/team/team-member.jpg"
+              width="256"
+              height="256"
+              alt="Card image cap"
+            />
+            <CardBody>
+              <CardTitle>Mobin</CardTitle>
+              <CardSubtitle>
+                <a href="https://linkedin.com/in/mobinarablou"> 
+                  <span className="text-primary mr-1 icon ion-logo-linkedin" />
+                </a>
+                Technology
+              </CardSubtitle>
+              <CardText>
+                {/*<span className="text-success mr-1 icon ion-md-map" />*/}
+                Tech guys
+              </CardText>
+            </CardBody>
+          </Card>
+          <Card>
+            <CardImg
+              top
+              width="100%"
+              src="../static/team/team-member.jpg"
+              width="256"
+              height="256"
+              alt="Card image cap"
+            />
+            <CardBody>
+              <CardTitle>Tony</CardTitle>
+              <CardSubtitle>
+                <a href="https://linkedin.com/in/mobinarablou"> 
+                  <span className="text-primary mr-1 icon ion-logo-linkedin" />
+                </a>
+                Business
+              </CardSubtitle>
+              <CardText>
+                {/*<span className="text-success mr-1 icon ion-md-map" />*/}
+                Business guys
+              </CardText>
+            </CardBody>
+          </Card>
+          <Card>
+            <CardImg
+              top
+              width="100%"
+              src="../static/team/team-member.jpg"
+              width="256"
+              height="256"
+              alt="Card image cap"
+            />
+            <CardBody>
+              <CardTitle>Zhang</CardTitle>
+              <CardSubtitle>
+                <a href="https://linkedin.com/in/mobinarablou"> 
+                  <span className="text-primary mr-1 icon ion-logo-linkedin" />
+                </a>
+                Technology
+              </CardSubtitle>
+              <CardText>
+                {/*<span className="text-success mr-1 icon ion-md-map" />*/}
+                Tech guys
+              </CardText>
+            </CardBody>
+          </Card>
+        </CardDeck>
       </Layout>
     );
   }

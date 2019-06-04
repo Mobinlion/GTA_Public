@@ -22,6 +22,10 @@ import {
   ListGroup,
   ListGroupItem
 } from "reactstrap";
+import {
+  FacebookIcon,
+  TwitterIcon,
+} from 'react-share';
 import Signin from "./signin";
 import { NextAuth } from "next-auth/client";
 import Cookies from "universal-cookie";
@@ -78,7 +82,7 @@ export default class extends React.Component {
         <Navbar light className="navbar navbar-expand-md pt-3 pb-3">
           <Link prefetch href="/">
             <NavbarBrand href="/" style={{ color: "green" }}>
-              <img src="/static/logo.png" height="30" /> {Package.name}
+              <img src="/static/logo_resized.png" height="50" /> {Package.name}
             </NavbarBrand>
           </Link>
           <input
@@ -161,6 +165,12 @@ export default class extends React.Component {
                   </Link>
                 </div>
               </div>
+              <a href="#" style={{margin:"0px 20px"}}>
+                <FacebookIcon size={24} round={false} /> 
+              </a>
+              <a href="#">
+                <TwitterIcon size={26} round={true} />
+              </a>
             </Nav>
             <UserMenu
               session={this.props.session}

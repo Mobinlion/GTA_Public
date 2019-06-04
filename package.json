@@ -33,6 +33,7 @@
     "react-bootstrap-table": "^4.3.1",
     "react-dom": "^16.7.0",
     "react-map-gl": "^4.0.7",
+    "react-share": "^2.4.0",
     "react-star-ratings": "^2.3.0",
     "react-syntax-highlighter": "^10.1.2",
     "react-transition-group": "^2.5.1",
