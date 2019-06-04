@@ -18,6 +18,9 @@ module.exports = (expressApp, functions) => {
         res.json({
           name: user.name,
           email: user.email,
+          mobile: user.mobile,
+          bank: user.bank,
+          
           emailVerified: (user.emailVerified && user.emailVerified === true) ? true : false
         })
       })
@@ -38,6 +41,13 @@ module.exports = (expressApp, functions) => {
 
         if (req.body.name)
           user.name = req.body.name
+
+        if(req.body.mobile)
+          user.mobile = req.body.mobile
+          
+        if(req.body.bank)
+          user.bank = req.body.bank
+
 
         if (req.body.email) {
           // Reset email verification field if email address has changed

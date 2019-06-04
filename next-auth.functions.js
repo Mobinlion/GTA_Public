@@ -186,6 +186,8 @@ module.exports = () => {
             return resolve({
               id: user._id,
               name: user.name,
+              bank: user.bank, //sensitive fields should not be normalized
+              mobile: user.mobile, //sensitive fields should not be normalized for security
               email: user.email,
               emailVerified: user.emailVerified,
               admin: user.admin || false
