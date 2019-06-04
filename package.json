@@ -1,6 +1,6 @@
 {
-  "name": "greenthumb",
-  "version": "1.0.2",
+  "name": "GreenThumb",
+  "version": "0.0.2",
   "description": "Green Thumb Agriculture",
   "author": "Ahmad John <ruzikulov@gmail.com>",
   "license": "ISC",
@@ -9,7 +9,7 @@
   "dependencies": {
     "babel-core": "^6.26.3",
     "babel-plugin-wrap-in-js": "^1.1.1",
-    "bootstrap": "^4.3.1",
+    "bootstrap": "^4.1.3",
     "connect-mongo": "^2.0.3",
     "dotenv": "^6.2.0",
     "express-session": "^1.15.5",
@@ -32,6 +32,7 @@
     "react": "^16.7.0",
     "react-bootstrap-table": "^4.3.1",
     "react-dom": "^16.7.0",
+    "react-iframe": "^1.5.0",
     "react-mailchimp-subscribe": "^2.1.0",
     "react-map-gl": "^4.0.7",
     "react-responsive-carousel": "^3.1.49",
