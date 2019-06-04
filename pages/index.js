@@ -11,11 +11,6 @@ import {
 } from "reactstrap";
 import Page from "../components/page";
 import Layout from "../components/layout";
-import MailchimpSubscribe from "react-mailchimp-subscribe";
-import { Carousel } from 'react-responsive-carousel';
-
-
-const url = "https://yahoo.us20.list-manage.com/subscribe/post?u=f6ac22f6b712eebce6855f799&amp;id=fea44e06eb";
 
 export default class extends Page {
   render() {
@@ -49,10 +44,6 @@ export default class extends Page {
                 </a>
               </Link>
             </p>
-            <p className="text-left"> Subscribe to our mailing list:
-            <MailchimpSubscribe url={url}/>
-            </p>
-            
             <style jsx>{`
               .display-2 {
                 text-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
@@ -76,23 +67,6 @@ export default class extends Page {
         </Jumbotron>
         <Container>
           <p className="text-muted small">Farming Opportunity Awaits You!</p>
-          <h2 className="text-center display-4 mt-5 mb-2">Testimonial</h2>
-          <center>
-            <Carousel autoPlay interval={5000} infiniteLoop>
-                  <div>
-                      <img src="../static/testimonials/farm_4.jpg" />
-                      <p className="legend">Perfect way to end world hunger!</p>
-                  </div>
-                  <div>
-                      <img src="../static/testimonials/farm_3.jpg" />
-                      <p className="legend">Safe way to invest!</p>
-                  </div>
-                  <div>
-                      <img src="../static/testimonials/farm_1.jpg" />
-                      <p className="legend">Guaranteed profitability!</p>
-                  </div>
-              </Carousel>
-            </center>
           <h2 className="text-center display-4 mt-5 mb-2">Features</h2>
           <Row className="pb-5">
             <Col xs="12" sm="4" className="pt-5">
