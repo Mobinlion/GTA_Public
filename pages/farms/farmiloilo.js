@@ -5,11 +5,26 @@ import Layout from "../../components/layout";
 import Link from 'next/link'
 import dynamic from 'next/dynamic';
 import Iframe from 'react-iframe';
-import { Carousel } from 'react-responsive-carousel';
 
 import {
+    Container,
     Row,
-    Col
+    Col,
+    Nav,
+    NavItem,
+    Button,
+    Form,
+    NavLink,
+    Collapse,
+    Navbar,
+    NavbarToggler,
+    NavbarBrand,
+    Modal,
+    ModalHeader,
+    ModalBody,
+    ModalFooter,
+    ListGroup,
+    ListGroupItem
   } from "reactstrap";
 
 
@@ -31,44 +46,21 @@ export default class extends Page {
             <p className="lead">Types of Crops Grown: Sugarcane, Barley, Sweet potato</p> 
             <p></p>
          </Col>
-         <Col xs="12" md="6" lg="7"> {/*increase lg="5" to show 2 farms per row*/}
+         <Col xs="12" md="7" lg="8"> {/*increase lg="5" to show 2 farms per row*/}
             <DynamicComponentWithNoSSR />
          </Col>
-        
-         <h3 className="display-3" style={{margin:"0px 10px"}}> Farm Pictures</h3>
-        <Col xs="12" md="8" lg="10"> {/*increase lg="5" to show 2 farms per row*/}
-            <Carousel autoPlay interval={5000} infiniteLoop>
-                  <div>
-                      <img src="../static/testimonials/farm_4.jpg" />
-                      <p className="legend">Farm Picture May 2018</p>
-                  </div>
-                  <div>
-                      <img src="../static/testimonials/farm_3.jpg" />
-                      <p className="legend">Farm Picture November 2018</p>
-                  </div>
-                  <div>
-                      <img src="../static/testimonials/farm_1.jpg" />
-                      <p className="legend">Farm Picture January 2019</p>
-                  </div>
-              </Carousel>
-          </Col>
         </Row>
         <h3>Invest Now:</h3>
         <div><Iframe url="https://degron.io/opencart/index.php?route=product/product&product_id=40"
         width="80%"
         height="1024px"
         id="myId"
-        className="FrameBorderRemove"
+        className="myClassname"
         display="initial"
         position="relative"
         scrolling="yes"
         allowFullScreen/>
         </div>
-        <style jsx>{`
-      .FrameBorderRemove {
-        border:none;
-      }
-    `}</style>
       </Layout>
     );
   }
