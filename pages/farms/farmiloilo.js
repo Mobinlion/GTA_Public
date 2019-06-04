@@ -4,7 +4,7 @@ import Page from "../../components/page";
 import Layout from "../../components/layout";
 import Link from 'next/link'
 import dynamic from 'next/dynamic';
-import Iframe from 'react-iframe';
+import Iframe from "react-iframe";
 
 import {
     Container,
@@ -51,9 +51,9 @@ export default class extends Page {
          </Col>
         </Row>
         <h3>Invest Now:</h3>
-        <div><Iframe url="https://degron.io/opencart/index.php?route=product/product&product_id=40"
+        <div><Iframe url="http://degron.io/opencart/index.php?route=product/product&product_id=40"
         width="680px"
-        height="760px"
+        height="680px"
         className="Payment"
         display="initial"
         position="relative"
