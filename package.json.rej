@@ -1,0 +1,10 @@
+diff a/package.json b/package.json	(rejected hunks)
+@@ -1,6 +1,6 @@
+ {
+-  "name": "GreenThumb",
+-  "version": "0.0.2",
++  "name": "greenthumb",
++  "version": "1.0.2",
+   "description": "Green Thumb Agriculture",
+   "author": "Ahmad John <ruzikulov@gmail.com>",
+   "license": "ISC",
