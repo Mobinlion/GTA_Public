@@ -17,8 +17,9 @@ module.exports = (expressApp, functions) => {
         if (!user) return res.status(500).json({error: 'Unable to fetch profile'})
         res.json({
           name: user.name,
+          balance: 0,
           email: user.email,
-          mobile: user.mobile,
+          mobile: 0,
           bank: user.bank,
           
           emailVerified: (user.emailVerified && user.emailVerified === true) ? true : false
@@ -41,6 +42,9 @@ module.exports = (expressApp, functions) => {
 
         if (req.body.name)
           user.name = req.body.name
+
+        if(req.body.balance)
+          user.balance = req.body.balance
 
         if(req.body.mobile)
           user.mobile = req.body.mobile

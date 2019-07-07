@@ -97,6 +97,8 @@ export class Table extends React.Component {
           options={ this.props.options }>
             <TableHeaderColumn isKey dataField="_id">ID</TableHeaderColumn>
             <TableHeaderColumn dataField="name">Name</TableHeaderColumn>
+            <TableHeaderColumn dataField="balance">Balance</TableHeaderColumn>
+            <TableHeaderColumn dataField="bank">bank</TableHeaderColumn>
             <TableHeaderColumn dataField="email">Email</TableHeaderColumn>
         </BootstrapTable>
         <p className="mt-2 text-muted text-right">

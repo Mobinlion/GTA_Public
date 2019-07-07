@@ -21,8 +21,9 @@ export default class extends Page {
       session: props.session,
       isSignedIn: props.session.user ? true : false,
       name: "",
+      balance:"",
       email: "",
-      mobile: "",
+      mobile: 0,
       bank: "",
       emailVerified: false,
       alertText: null,
@@ -30,8 +31,9 @@ export default class extends Page {
     };
     if (props.session.user) {
       this.state.name = props.session.user.name;
+      this.state.balance = props.session.user.balance;
       this.state.email = props.session.user.email;
-      this.state.mobile = props.session.user.mobile;
+      this.state.mobile = props.session.user.mobile; {/*gets value from database*/}
       this.state.bank = props.session.user.bank;
     }
     this.handleChange = this.handleChange.bind(this);
@@ -62,6 +64,7 @@ export default class extends Page {
         if (!user.name || !user.email) return;
         this.setState({
           name: user.name,
+          balance: user.balance,
           email: user.email,
           bank: user.bank,
           mobile: user.mobile,
@@ -88,6 +91,7 @@ export default class extends Page {
     const formData = {
       _csrf: await NextAuth.csrfToken(),
       name: this.state.name || "",
+      balance: this.state.balance || "",
       email: this.state.email || "",
       mobile: this.state.mobile || "",
       bank: this.state.bank || ""
@@ -179,9 +183,22 @@ export default class extends Page {
                   </Col>
                 </FormGroup>
                 <FormGroup row>
+                  <Label sm={2}>Balance:</Label>
+                  <Col sm={10} md={8}>
+                    <Input
+                      readOnly
+                      type="number"
+                      name="balance"
+                      value={this.state.balance}
+                      onChange={this.handleChange}
+                    />
+                  </Col>
+                </FormGroup>
+                <FormGroup row>
                   <Label sm={2}>Mobile:</Label>
                   <Col sm={10} md={8}>
                     <Input
+                      type="number"
                       name="mobile"
                       value={this.state.mobile}
                       onChange={this.handleChange}

@@ -205,7 +205,7 @@ module.exports = () => {
         .sendMail({
           to: email,
           from: process.env.EMAIL_FROM,
-          subject: 'Sign in link',
+          subject: 'GreenThumb Sign In',
           text: `Use the link below to sign in:\n\n${url}\n\n`,
           html: `<p>Use the link below to sign in:</p><p>${url}</p>`
         }, (err) => {
